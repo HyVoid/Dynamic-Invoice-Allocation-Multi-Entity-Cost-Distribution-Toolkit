@@ -1,0 +1,6 @@
+{
+  "name": "Dynamic Invoice Allocation & Multi-Entity Cost Distribution Toolkit",
+  "description": "A high-performance SaaS web application for multi-asset invoice expense allocation, featuring an interactive calculation engine, multiple allocation bases, CSV bulk import/export, and auto-save capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
