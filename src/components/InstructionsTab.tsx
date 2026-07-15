@@ -15,6 +15,12 @@ export default function InstructionsTab() {
           <p className="text-muted text-[14px] leading-relaxed">
             Welcome to the operational command center for investment fund expense sharing. This system automates the multi-entity division of project-level invoices based on actual capital weights or equal-split rules. It operates completely inside your browser with real-time automatic calculations.
           </p>
+          <div className="mt-4 p-4 bg-accent/5 border border-accent/20 rounded-lg text-xs text-primary leading-relaxed flex flex-col gap-1">
+            <span className="text-accent font-bold">Operational Notice</span>
+            <p className="text-muted mt-0.5">
+              All application data is securely persisted inside your browser's Local Storage. No financial records or client details are uploaded or stored on our web servers, ensuring complete data privacy.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -118,7 +124,7 @@ export default function InstructionsTab() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-positive shrink-0 mt-0.5">✓</span>
-                <span><strong>Permanent Auto-Save:</strong> Any change you make is saved directly to your browser's LocalStorage instantly with a visible timestamp marker.</span>
+                <span><strong>LocalStorage & Data Privacy:</strong> All your changes are strictly preserved within your local browser. There is no remote database or server communication, ensuring your financial information is never retained by third parties.</span>
               </li>
             </ul>
           </div>
