@@ -14,7 +14,7 @@
 >
 > 📥 **Download Excel**
 >
-> *(GitHub Release / Gumroad)*
+> [Download Link](https://alexhasgreatestuff.gumroad.com/l/vooco)
 
 ---
 
