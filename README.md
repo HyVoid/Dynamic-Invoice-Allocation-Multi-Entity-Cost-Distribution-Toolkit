@@ -8,9 +8,7 @@
 
 > ## **No signup. No installation. Free.**
 >
-> 🌐 **Open in Browser**
->
-> *(HTML Live Demo)*
+> 🌐 **Open in Browser** → [HTML Live Demo](https://hyvoid.github.io/Dynamic-Invoice-Allocation-Multi-Entity-Cost-Distribution-Toolkit/)
 >
 > 📥 **Download Excel**
 >
