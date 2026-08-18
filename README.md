@@ -12,7 +12,7 @@
 >
 > 📥 **Download Excel**
 >
-> [Download Link](https://alexhasgreatestuff.gumroad.com/l/vooco)
+> [Download Link](https://alexhasgreatestuff.gumroad.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)
 
 ---
 
