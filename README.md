@@ -16,24 +16,6 @@
 
 ---
 
-# Screenshots
-
-### Browser Version
-
-<!-- screenshot: browser version -->
-
-*A browser-based interface for importing invoices, selecting allocation rules, and reviewing allocation summaries without opening Excel.*
-
----
-
-### Excel Version
-
-<!-- screenshot: excel version -->
-
-*The Excel workbook automatically transforms imported invoices into allocation-ready accounting records and management summaries.*
-
----
-
 # What It Helps You Track
 
 - Supplier invoices allocated consistently across multiple legal entities and operating assets.
