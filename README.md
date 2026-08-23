@@ -6,7 +6,9 @@
 
 **Allocate supplier invoices across assets, funds, companies, and geographies automatically using configurable allocation rules—available as a free browser version and an Excel workbook with no installation required.**
 
-> ## **No signup. No installation. Free.**
+**No signup. No installation. Free in your browser.**
+
+Try the browser version for free. If you need the Excel version, you can buy it with a 7-day money-back guarantee.
 >
 > 🌐 **Open in Browser(free)** → [here](https://hyvoid.github.io/Dynamic-Invoice-Allocation-Multi-Entity-Cost-Distribution-Toolkit/)
 >
