@@ -655,7 +655,7 @@ These workbooks follow the same design philosophy: lightweight analytical framew
 - **Restaurant Menu Master Workbook** — Centralized menu configuration, modifier management, and pricing governance.
 - **Retail & Maquila Inventory Ledger** — Track inventory from bulk purchasing through contract manufacturing to finished SKU sales.
 - **Construction Estimate & Cost Tracking Toolkit** — Quantity takeoffs, cost estimation, and project budget monitoring.
-- More tools are available through the GitHub repository and Gumroad product library.
+- More tools are available through the GitHub repository and our [Website](https://www.theseusworkshop.com/).
 
 ---
 
