@@ -1,3 +1,4 @@
+[ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 # Dynamic Invoice Allocation & Multi-Entity Cost Distribution Excel Toolkit
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
@@ -17,7 +18,7 @@ Try the browser version for free. If you need the Excel version, you can buy it 
 
 ---
 
-# What It Helps You Track
+## What It Helps You Track
 
 - Supplier invoices allocated consistently across multiple legal entities and operating assets.
 - Cost distribution by Fund, Geography, SPV, and billing company without rebuilding reports.
@@ -28,7 +29,7 @@ Try the browser version for free. If you need the Excel version, you can buy it 
 
 ---
 
-# Quick Start Workflow
+## Quick Start Workflow
 
 ### 1. Configure allocation rules once
 
@@ -92,7 +93,7 @@ The workbook automatically recalculates every allocation and management summary 
 
 ---
 
-# Why I Built This
+## Why I Built This
 
 Many finance teams already have invoice allocation workbooks.
 
@@ -125,7 +126,7 @@ The allocation target identifies the relevant asset group.
 The engine distributes the invoice automatically according to the selected allocation basis, validates missing mappings, generates detailed accounting records, and immediately updates Fund and Geography summaries.
 
 The workbook becomes a reusable analytical process rather than another customized spreadsheet.
-# Common Invoice Allocation Problems This Solves
+## Common Invoice Allocation Problems This Solves
 
 | Problem | Without This Tool | With This Tool |
 |----------|-------------------|----------------|
@@ -138,7 +139,7 @@ The workbook becomes a reusable analytical process rather than another customize
 
 ---
 
-# Who This Is For
+## Who This Is For
 
 This workbook is designed for organizations that allocate shared operating costs across multiple assets, legal entities, investment vehicles, or geographic regions while requiring a transparent audit trail.
 
@@ -157,7 +158,7 @@ No spreadsheet expertise is required. Open the browser version or Excel workbook
 
 ---
 
-# About
+## About
 
 I build lightweight Excel and browser-based decision-support tools for operational problems that involve too many moving parts to manage reliably by memory alone.
 
@@ -169,7 +170,7 @@ The Dynamic Invoice Allocation & Multi-Entity Cost Distribution Excel Toolkit is
 
 ---
 
-# Technical Details
+## Technical Details
 
 <details>
 <summary><strong>For technical reviewers, Excel practitioners, and collaborators</strong></summary>
