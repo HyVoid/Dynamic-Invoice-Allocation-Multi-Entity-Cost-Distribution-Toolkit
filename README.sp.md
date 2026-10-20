@@ -1,172 +1,115 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
-# Asignación dinámica de facturas & distribución de costos multi-entidad — kit de herramientas Excel
+
+# 📊 Plantilla Excel dinámica de asignación de facturas & sistema de distribución de costos multi-entidad
+<img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/3a80f546-ec3c-47a2-a89f-c0ecc823e961" />
+
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
-![Tool](https://img.shields.io/badge/Tool-Decision%20Support-orange)
+![Tool](https://img.shields.io/badge/Tool-Financial%20Decision%20Support-orange)
 
-**Asigne facturas de proveedores automáticamente entre activos, fondos, empresas y geografías usando reglas de asignación configurables—disponible como versión gratuita en navegador y como libro de Excel, sin necesidad de instalación.**
+¿Busca una **plantilla Excel confiable de asignación de facturas**? Este **sistema automatizado de distribución de costos multi-entidad** está diseñado para ayudar a los equipos de finanzas corporativas, administradores de fondos y controladores a asignar facturas de proveedores sin problemas entre activos, fondos, SPVs, empresas y geografías. Reemplace las hojas de cálculo manuales de asignación de gastos generales por un motor unificado basado en reglas que agiliza sus flujos de trabajo contables de cierre mensual y genera datos de preparación de asientos contables listos para auditoría.
 
-**Sin registro. Sin instalación. Gratis en su navegador.**
-
-Pruebe la versión de navegador gratis. Si necesita la versión de Excel, puede comprarla con una garantía de devolución de 30 días sin preguntas.
+> 🌐 **Aplicación web en vivo (Pruebe el motor de asignación)**  
+> [Lanzar la aplicación gratuita de calculadora de asignación de facturas en el navegador (sin instalación)](https://hyvoid.github.io/multi-entity-expense-allocation/)
 >
-> 🌐 **Abrir en el navegador (gratis)** → [aquí](https://hyvoid.github.io/Dynamic-Invoice-Allocation-Multi-Entity-Cost-Distribution-Toolkit/)
->
-> 📥 **Descargar Excel** → [enlace de compra](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)
-> 
+> 📥 **Archivo Excel descargable (Mantenga sus datos financieros seguros)**  
+> [Descargar la plantilla Excel reutilizable de distribución de costos multi-entidad (.xlsx)](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)
 
 ---
 
-## Lo que le ayuda a rastrear
+## Usuarios financieros objetivo & escenarios de asignación de costos: ¿quién necesita esta hoja de cálculo?
 
-- Facturas de proveedores asignadas de forma consistente entre múltiples entidades legales y activos operativos.
-- Distribución de costos por Fondo, Geografía, SPV y empresa de facturación sin reconstruir informes.
-- Resultados de asignación bajo diferentes metodologías como Recuento de activos, Capacidad o Capacidad de propiedad.
-- Destinos de asignación faltantes o no mapeados antes de exportar asientos contables.
-- Pistas de auditoría de asignación completas, desde la factura original hasta cada transacción asignada.
-- Resúmenes de asignación listos para finanzas que permanecen sincronizados con los datos fuente importados.
+Esta sección vincula puestos financieros específicos con sus escenarios más comunes de reportes de cierre mensual, asegurando que encuentre exactamente la **alternativa de software de asignación de gastos** que está buscando.
 
----
+### 1. Equipos de finanzas corporativas & controladores de grupo
+- **Intención principal de búsqueda:** *plantilla Excel de asignación de gastos compartidos, hoja de cálculo de facturación entre empresas*
+- **Escenario operativo:** Gestionar gastos operativos centralizados que deben distribuirse proporcionalmente entre múltiples filiales, centros de costos y sucursales sin reconstruir tablas dinámicas cada mes.
 
-## Flujo de trabajo de inicio rápido
+### 2. Capital privado & administradores de fondos
+- **Intención principal de búsqueda:** *calculadora de asignación de gastos de fondos, hoja de cálculo de distribución de facturas de SPV*
+- **Escenario operativo:** Enrutar honorarios legales, de auditoría y de gestión complejos a través de diversos vehículos de inversión (SPVs) y fondos según metodologías dinámicas de Ownership Capacity o Asset Count.
 
-### 1. Configure las reglas de asignación una sola vez
+### 3. Gestores de activos inmobiliarios & de infraestructura
+- **Intención principal de búsqueda:** *plantilla de distribución de costos de cartera inmobiliaria, flujo contable multi-activo*
+- **Escenario operativo:** Asignar con precisión facturas compartidas de mantenimiento y servicios a activos operativos individuales a nivel de cartera, manteniendo una pista de auditoría transparente para los inversionistas.
 
-Abra la hoja **Settings** y defina los pocos parámetros que controlan el libro.
-
-Ejemplos típicos:
-
-- Tasa de IVA predeterminada
-- Símbolo de moneda
-- Base de asignación
-    - Recuento de activos
-    - Capacidad
-    - Capacidad de propiedad
-
-Esta configuración se convierte en la fuente de verdad única utilizada en cada cálculo.
+### 4. Contadores de family offices
+- **Intención principal de búsqueda:** *Excel de seguimiento de gastos multi-entidad, asignación de costos de gestión patrimonial*
+- **Escenario operativo:** Estandarizar el flujo de trabajo para distribuir costos indirectos entre múltiples fideicomisos familiares y entidades legales antes de importar los asientos contables finales al sistema ERP central.
 
 ---
 
-### 2. Importe los datos operativos existentes
+## Puntos de dolor de las operaciones financieras & soluciones de asignación automatizadas
 
-Pegue la lista maestra de activos más reciente en **Asset Import**.
+Este kit de herramientas actúa como puente entre las facturas de proveedores y su contabilidad general (GL). Traduce los cuellos de botella comunes de reparto de costos directamente en soluciones automatizadas de hojas de cálculo.
 
-Pegue las facturas de proveedores en **Invoice Input**.
-
-No se requiere ninguna reestructuración.
-
-Los datos pueden provenir directamente de:
-
-- exportaciones de software contable
-- informes de ERP
-- archivos CSV
-- tablas de hojas de cálculo copiadas
-
-El libro se expande automáticamente a medida que se agregan filas.
+| Cuello de botella de asignación de costos (punto de dolor) | Solución Excel automatizada integrada | Impacto financiero & objetivo de KPI |
+| :--- | :--- | :--- |
+| **Distribución inconsistente de gastos generales** | **Motor centralizado de reglas de asignación:** Aplica metodologías estandarizadas (Asset Count, Capacity, Ownership %) automáticamente a todas las facturas entrantes. | Elimina **errores de facturación entre empresas** y garantiza el cumplimiento de las políticas de gastos. |
+| **Pistas de auditoría perdidas en hojas de cálculo** | **Linaje de facturas de extremo a extremo:** Rastrea cada monto asignado hasta la factura original del proveedor, preservando los valores originales Net, VAT y Gross. | Acelera el **proceso de cierre mensual** y simplifica las revisiones de auditores externos. |
+| **Tablas dinámicas rotas & actualizaciones manuales** | **Resúmenes dinámicos de fondos y geografía:** Genera automáticamente reportes de distribución de costos listos para la gerencia sin requerir actualizaciones manuales de datos. | Reduce el tiempo dedicado a la **generación de reportes financieros multi-entidad** y la manipulación de datos. |
+| **Costos huérfanos & entidades no mapeadas** | **Validación de integridad de datos y mapeo:** Marca de inmediato los objetivos de asignación faltantes o las entidades de facturación no reconocidas antes de exportar los asientos contables. | Previene **costos indirectos no capturados**, garantizando una recuperación de costos del 100% entre SPVs. |
 
 ---
 
-### 3. Revise los resultados de asignación al instante
+## Comparación de asignación de costos: hojas de cálculo manuales vs. motor de Excel automatizado
 
-Cambie a **Allocation Detail** o **Allocation Summary**.
+Evite las trampas más comunes de la contabilidad multi-entidad modernizando su flujo de trabajo de cierre mensual con esta plantilla estructurada.
 
-Cada factura se distribuye automáticamente según la metodología de asignación seleccionada.
-
-No es necesario copiar fórmulas.
-
-No es necesario actualizar tablas dinámicas.
-
-No es necesario mantener hojas de asignación manuales.
+| Flujo de trabajo de reportes financieros | Seguimiento manual tradicional en hojas de cálculo | Kit de herramientas automatizado de distribución de costos (este repositorio) |
+| :--- | :--- | :--- |
+| **Gestión de múltiples entidades legales** | **Lógica duplicada:** Cada entidad legal o SPV requiere su propia calculadora, creando hojas redundantes y un alto riesgo de corrupción de fórmulas. | **Motor de asignación único:** Un marco centralizado enruta automáticamente las facturas de proveedores a los activos correctos según la entidad de facturación seleccionada. |
+| **Actualización de estructuras de activos de cartera** | **Expansión manual de fórmulas:** Los activos nuevos requieren que el personal financiero arrastre fórmulas manualmente, expanda rangos y verifique totales porcentuales. | **Lista maestra dinámica:** Los activos nuevos simplemente se agregan a la tabla maestra; los rangos de asignación y las divisiones proporcionales se recalculan automáticamente. |
+| **Conciliación de asientos contables** | **Búsqueda de errores a ciegas:** Los equipos financieros comparan manualmente los montos totales distribuidos en decenas de pestañas para encontrar un error de redondeo de $0.01. | **Libros autoconciliados:** Cada transacción asignada permanece matemáticamente vinculada a la factura de origen, garantizando conciliaciones sin variaciones. |
 
 ---
 
-### 4. Actualice cuando lleguen nuevas facturas
+## Cómo automatizar la distribución de costos multi-entidad en 4 pasos (tutorial de inicio rápido)
 
-Reemplace los datos de activos importados cuando cambien las estructuras de la cartera.
+Deje de calcular repartos pro-rata manualmente. Siga esta secuencia operativa para establecer un ciclo de asignación de gastos confiable y listo para auditoría:
 
-Agregue nuevas facturas a medida que lleguen.
+### Paso 1: Configure sus reglas de asignación de costos (configuración del sistema)
+Abra la hoja **Settings** para definir los parámetros globales que controlan su distribución financiera:
+- Establezca su tasa de IVA predeterminada y el símbolo de moneda regional.
+- Elija su *Allocation Basis* principal (por ejemplo, Asset Count, Physical Capacity u Ownership Capacity).
+- *Feature Check:* Estos parámetros se convierten en la única fuente de verdad, eliminando inconsistencias de fórmulas entre hojas.
 
-El libro recalcula automáticamente cada asignación y resumen de gestión sin reconstruir informes.
+### Paso 2: Importe los datos de origen del ERP/contabilidad (entrada de datos)
+Pegue los datos más recientes de su cartera en **Asset Import** y pegue las facturas de proveedores en **Invoice Input**:
+- Los datos pueden pegarse directamente desde exportaciones de software contable, informes de ERP o archivos CSV básicos, sin necesidad de reestructurar.
+- El libro se expande automáticamente para absorber filas nuevas.
 
-**Defina unos pocos parámetros clave. Ingrese sus datos existentes. Obtenga el análisis. Actualice cuando lo necesite.**
+### Paso 3: Audite los resúmenes de distribución de facturas (conciliación)
+Cambie a los paneles **Allocation Detail** o **Allocation Summary**:
+- Cada factura se distribuye automáticamente según su metodología predefinida.
+- Verifique las *Data Health Checks* para asegurarse de que ninguna entidad no mapeada o regla de facturación faltante esté bloqueando el enrutamiento de sus costos.
 
----
+### Paso 4: Exporte los asientos contables del GL & asegure su plantilla
+Genere su resumen final de asignación listo para finanzas. Ahora puede exportar fácilmente estas líneas calculadas a su plataforma contable principal.
 
-## Por qué construí esto
-
-Muchos equipos de finanzas ya tienen libros de asignación de facturas.
-
-El problema rara vez es el cálculo en sí.
-
-El verdadero problema: cada nueva empresa de facturación, vehículo de inversión o entidad operativa suele introducir otra hoja de trabajo, otro bloque de fórmulas copiadas y otra oportunidad para errores de asignación.
-
-Con el tiempo, estos libros se convierten en colecciones de calculadoras casi idénticas, difíciles de auditar y casi imposibles de mantener de forma consistente.
-
-Construí este kit de herramientas para reemplazar las hojas de cálculo duplicadas por un marco de asignación reutilizable.
-
-En lugar de mantener calculadoras separadas para cada entidad, las facturas fluyen por un único motor de asignación impulsado por datos maestros de activos y reglas de asignación configurables.
-
-Por ejemplo:
-
-**Antes**
-
-Llega una factura de mantenimiento para una empresa de cartera.
-
-El personal financiero decide manualmente qué calculadora abrir, copia fórmulas, ajusta rangos, verifica porcentajes, actualiza resúmenes y comprueba si cada monto asignado sigue conciliando con la factura original.
-
-Cada entidad adicional aumenta tanto la carga de trabajo como el riesgo de auditoría.
-
-**Después**
-
-La factura se pega una sola vez.
-
-El destino de asignación identifica el grupo de activos relevante.
-
-El motor distribuye la factura automáticamente según la base de asignación seleccionada, valida los mapeos faltantes, genera registros contables detallados y actualiza inmediatamente los resúmenes de Fondo y Geografía.
-
-El libro se convierte en un proceso analítico reutilizable en lugar de otra hoja de cálculo personalizada.
-## Problemas comunes de asignación de facturas que esto resuelve
-
-| Problema | Sin esta herramienta | Con esta herramienta |
-|----------|-------------------|----------------|
-| Libros de asignación específicos por entidad | Cada entidad legal requiere su propia calculadora, lo que crea lógica duplicada y mantenimiento inconsistente. | Un único motor de asignación enruta las facturas automáticamente a los activos correctos usando la entidad de facturación seleccionada. |
-| Las reglas de asignación cambian con el tiempo | Las actualizaciones de fórmulas deben repetirse en muchas hojas de trabajo, aumentando el riesgo de cálculos inconsistentes. | La metodología de asignación se controla desde una sola hoja Settings y se aplica de forma consistente a cada factura. |
-| Las carteras de activos cambian con frecuencia | Los activos nuevos requieren expansión manual de fórmulas y actualizaciones de resúmenes. Las referencias faltantes a menudo pasan desapercibidas. | Los activos nuevos se agregan a la tabla maestra de activos, y los rangos de asignación se expanden automáticamente. |
-| La conciliación de asignaciones es difícil | Los equipos de finanzas comparan manualmente los totales de facturas con los montos distribuidos en varias hojas de trabajo. | Cada línea asignada sigue siendo rastreable hasta la factura original, mientras que los valores Neto, IVA y Bruto permanecen totalmente conciliados. |
-| Los informes de gestión requieren tablas dinámicas manuales | Los resúmenes de Fondo y geográficos deben reconstruirse o actualizarse después de cada ciclo de informes. | Las vistas de resumen se actualizan automáticamente a medida que se importan nuevas facturas y activos. |
-| Los destinos de asignación incorrectos pasan desapercibidos | Las entidades de facturación mal escritas o desconocidas a menudo producen asignaciones incompletas sin advertencias obvias. | Los destinos de asignación no mapeados se marcan inmediatamente para que los errores puedan corregirse antes de contabilizar. |
+👉 **¿Listo para estandarizar su flujo de trabajo de asignación de cierre mensual?**  
+Pruebe sus escenarios de asignación en la calculadora web gratuita de arriba. Cuando vea cómo agiliza sus datos, **[descargue aquí la plantilla Excel reutilizable de distribución de costos multi-entidad](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)**. Configure sus parámetros una vez, pegue sus datos mensuales y obtenga asignaciones ilimitadas, sin conexión y seguras para su empresa para siempre.
 
 ---
 
-## Para quién es esto
+## La lógica de negocio & metodología: cómo resolvemos la asignación de gastos
 
-Este libro está diseñado para organizaciones que distribuyen costos operativos compartidos entre múltiples activos, entidades legales, vehículos de inversión o regiones geográficas, exigiendo al mismo tiempo una pista de auditoría transparente.
+Este kit de herramientas se basa en principios fundamentales de contabilidad de gestión. No es solo una colección de VLOOKUPs, sino una metodología estructurada para resolver problemas reales de facturación multi-entidad:
 
-Los usuarios típicos incluyen:
+1. **Desacoplar los datos de origen de la lógica de cálculo:** La falla fundamental de la mayoría de las hojas de cálculo financieras es mezclar la entrada de datos brutos con las fórmulas de cálculo. Esta herramienta separa ambas cosas. Usted pega las facturas (el "Qué") y las listas de activos (el "Dónde") en capas aisladas, mientras que el motor se encarga estrictamente de la distribución (el "Cómo") según sus reglas.
+2. **Preparación para Pro-Rata & Activity-Based Costing (ABC):** Ya sea que asigne licencias de software equitativamente por *Asset Count* o distribuya el alquiler del almacén por *Square Footage Capacity*, la herramienta traduce realidades operativas físicas en proporciones financieras precisas, garantizando un reparto equitativo de costos entre empresas conjuntas o SPVs.
+3. **Pistas de auditoría inmutables para cumplimiento:** En la administración de fondos y las finanzas corporativas, *cómo* se calculó una cifra es tan importante como la cifra misma. Este marco garantiza que cada fracción distribuida de un costo conserve un vínculo directo y verificable con la factura original del proveedor, satisfaciendo los requisitos de los auditores y los estándares de control interno.
 
-- Equipos de finanzas corporativas que gestionan gastos operativos compartidos.
-- Gestores de inversiones en infraestructura y energías renovables.
-- Administradores de fondos inmobiliarios, de infraestructura y de capital privado.
-- Family offices que gestionan estructuras operativas multi-entidad.
-- Equipos contables que preparan diarios de asignación antes de la importación al ERP.
-- Analistas financieros responsables de la asignación recurrente de costos y los informes de gestión.
+## Acerca del creador
 
-Este libro **no** está destinado a reemplazar sistemas ERP ni plataformas contables empresariales. En cambio, estandariza uno de los procesos analíticos más propensos a errores antes de que los datos entren en esos sistemas.
+Construyo herramientas ligeras de apoyo a la decisión, en Excel y en el navegador, para problemas operativos financieros con demasiadas piezas en movimiento para gestionarlas de manera confiable solo con la memoria.
 
-No se requiere experiencia en hojas de cálculo. Abra la versión de navegador o el libro de Excel, importe sus datos existentes y comience a asignar facturas de inmediato.
+En lugar de crear sistemas empresariales inflados, me enfoco en marcos analíticos reutilizables que responden a una pregunta práctica:
 
----
+**"¿Qué información debe estar visible en un solo lugar para tomar la próxima decisión financiera con confianza?"**
 
-## Acerca de
-
-Construyo herramientas ligeras de apoyo a la decisión, en Excel y en el navegador, para problemas operativos con demasiadas piezas en movimiento para gestionarlos de forma fiable solo con la memoria.
-
-En lugar de crear grandes sistemas empresariales, me enfoco en marcos analíticos reutilizables que responden una pregunta práctica:
-
-**"¿Qué información debe estar visible en un solo lugar para tomar la próxima decisión con confianza?"**
-
-La Dynamic Invoice Allocation & Multi-Entity Cost Distribution Excel Toolkit es un ejemplo de ese enfoque—convertir un proceso de asignación financiera repetitivo en un flujo de trabajo analítico reproducible en lugar de otra colección de hojas de cálculo copiadas.
+Este Dynamic Invoice Allocation Toolkit es un reflejo directo de esa filosofía: convertir una tarea contable mensual estresante y repetitiva en un flujo de trabajo predecible y repetible.
 
 ---
 
@@ -249,7 +192,7 @@ El libro copiado produce inicialmente los números correctos.
 
 Varios meses después, cambian las reglas de asignación.
 
-Solo algunas hojas de trabajo reciben las fórmulas actualizadas.
+Solo algunas hojas reciben las fórmulas actualizadas.
 
 La organización ahora opera múltiples versiones de la misma metodología de asignación.
 
@@ -307,9 +250,9 @@ La metodología de asignación debe reflejar la economía operativa.
 
 El libro admite:
 
-- Recuento de activos
-- Capacidad
-- Capacidad de propiedad
+- Asset Count
+- Capacity
+- Ownership Capacity
 
 sin cambiar los informes posteriores.
 
@@ -340,7 +283,7 @@ Las relaciones de datos maestros faltantes se convierten en errores contables oc
 
 ### Enfoque correcto
 
-Las entidades de facturación desconocidas se marcan inmediatamente como **Unmapped Target** antes de la contabilización.
+Las entidades de facturación desconocidas se marcan inmediatamente como **⚠ Unmapped Target** antes de la contabilización.
 
 La asignación solo continúa después de corregir los datos maestros.
 
@@ -361,18 +304,18 @@ Un gestor de inversiones en energías renovables recibe una factura de proveedor
 
 La factura se asigna a la empresa operativa responsable de cuatro activos solares.
 
-La metodología de asignación seleccionada en **Settings** es **Capacidad de propiedad**.
+La metodología de asignación seleccionada en **Settings** es **Ownership Capacity**.
 
-La tabla maestra de activos contiene las siguientes capacidades de propiedad:
+La tabla maestra de activos contiene los siguientes valores de Ownership Capacity:
 
-| Activo | Capacidad de propiedad (MW) |
+| Activo | Ownership Capacity (MW) |
 |-------|-------------------------:|
 | Activo A | 60 |
 | Activo B | 30 |
 | Activo C | 20 |
 | Activo D | 10 |
 
-La capacidad de propiedad total equivale a **120 MW**.
+La Ownership Capacity total equivale a **120 MW**.
 
 El motor de asignación calcula automáticamente ratios de asignación proporcionales de **50%**, **25%**, **16.67%** y **8.33%**.
 
@@ -385,7 +328,7 @@ En lugar de asignar £60,000 por igual a cada activo, el libro distribuye los co
 | Activo C | £40,000 |
 | Activo D | £20,000 |
 
-El IVA se calcula automáticamente usando ya sea la excepción específica de la factura o el parámetro de IVA global.
+El IVA se calcula automáticamente usando ya sea la anulación específica de la factura o el parámetro de IVA global.
 
 La tabla de asignación resultante actualiza inmediatamente los resúmenes de Fondo y Geografía preservando la trazabilidad completa hasta la factura original del proveedor.
 
@@ -400,7 +343,7 @@ Este enfoque mejora la atribución de costos, reduce la conciliación manual y p
 
 **Propósito**
 
-Proporciona la tasa de IVA predeterminada cuando una factura no especifica una excepción específica.
+Proporciona la tasa de IVA predeterminada cuando una factura no especifica una anulación específica.
 
 **Referenciada por**
 
@@ -423,9 +366,9 @@ Define la metodología de asignación aplicada en todo el libro.
 
 Opciones admitidas:
 
-- Recuento de activos
-- Capacidad
-- Capacidad de propiedad
+- Asset Count
+- Capacity
+- Ownership Capacity
 
 El motor de asignación referencia este parámetro dinámicamente, permitiendo cambiar la metodología de asignación sin modificar ninguna fórmula.
 
@@ -434,13 +377,13 @@ El motor de asignación referencia este parámetro dinámicamente, permitiendo c
 ---
 
 <details>
-<summary><strong>Importación de activos</strong></summary>
+<summary><strong>Asset Import</strong></summary>
 
-### Capacidad de propiedad
+### Ownership Capacity
 
 **Propósito**
 
-Calcula la capacidad de propiedad efectiva usada por la asignación proporcional.
+Calcula la Ownership Capacity efectiva usada por la asignación proporcional.
 
 **Fórmula**
 
@@ -450,8 +393,8 @@ Calcula la capacidad de propiedad efectiva usada por la asignación proporcional
 
 Donde:
 
-- G = % de propiedad
-- H = Capacidad (MW)
+- G = Ownership %
+- H = Capacity (MW)
 
 El cálculo se expande automáticamente a medida que se importan activos adicionales.
 
@@ -460,7 +403,7 @@ El cálculo se expande automáticamente a medida que se importan activos adicion
 ---
 
 <details>
-<summary><strong>Entrada de facturas</strong></summary>
+<summary><strong>Invoice Input</strong></summary>
 
 ### Neto imponible
 
@@ -525,7 +468,7 @@ Las principales funciones de Excel incluyen:
 
 Los ratios de asignación se generan según la metodología configurada:
 
-### Recuento de activos
+### Asset Count
 
 ```text
 Allocation Ratio = 1 ÷ Number of Matching Assets
@@ -533,7 +476,7 @@ Allocation Ratio = 1 ÷ Number of Matching Assets
 
 ---
 
-### Capacidad
+### Capacity
 
 ```text
 Allocation Ratio
@@ -549,7 +492,7 @@ Total Capacity
 
 ---
 
-### Capacidad de propiedad
+### Ownership Capacity
 
 ```text
 Allocation Ratio
@@ -629,11 +572,11 @@ sin tablas dinámicas.
 | Allocation Target | Debe coincidir con una Company to Invoice existente | Registro de advertencia generado |
 | VAT Override | Vacío o porcentaje válido | Vuelve al IVA predeterminado |
 | Company to Invoice | Debe existir en Asset Import | Asignación bloqueada |
-| Ownership % | Entre 0 % y 100 % | Valores inválidos excluidos |
+| Ownership % | Entre 0% y 100% | Valores inválidos excluidos |
 | Capacity | Debe ser positiva | Asignación por capacidad no disponible |
 | Ownership Capacity | Solo generado por fórmula | Columna protegida |
-| Default VAT Rate | Entre 0 % y 100 % | Advertencia de configuración |
-| Allocation Basis | Asset Count / Capacity / Ownership Capacity | Predeterminado: recuento de activos |
+| Default VAT Rate | Entre 0% y 100% | Advertencia de configuración |
+| Allocation Basis | Asset Count / Capacity / Ownership Capacity | Predeterminado: Asset Count |
 
 ### Condiciones de protección automáticas
 
@@ -642,7 +585,7 @@ sin tablas dinámicas.
 - Las entidades de facturación desconocidas generan un registro **⚠ Unmapped Target**.
 - Las matrices dinámicas se expanden automáticamente sin fórmulas copiadas.
 - Los informes de resumen se actualizan automáticamente después del recálculo.
-- Todos los totales Neto, IVA y Bruto asignados concilian con su factura de origen.
+- Todos los totales Net, VAT y Gross asignados concilian con su factura de origen.
 
 </details>
 
