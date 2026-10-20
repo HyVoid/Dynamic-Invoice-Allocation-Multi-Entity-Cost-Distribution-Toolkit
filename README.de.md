@@ -1,172 +1,115 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
-# Dynamische Rechnungszuteilung & Kostenverteilung über mehrere Einheiten — Excel-Toolkit
+
+# 📊 Dynamische Excel-Vorlage für die Rechnungszuteilung & System zur Kostenverteilung über mehrere Einheiten
+<img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/3a80f546-ec3c-47a2-a89f-c0ecc823e961" />
+
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
-![Tool](https://img.shields.io/badge/Tool-Decision%20Support-orange)
+![Tool](https://img.shields.io/badge/Tool-Financial%20Decision%20Support-orange)
 
-**Verteilen Sie Lieferantenrechnungen automatisch auf Anlagen, Fonds, Unternehmen und Geografien mit konfigurierbaren Zuteilungsregeln—verfügbar als kostenlose Browserversion und als Excel-Arbeitsmappe ohne Installation.**
+Suchen Sie eine zuverlässige **Excel-Vorlage für die Rechnungszuteilung**? Dieses automatisierte **System zur Kostenverteilung über mehrere Einheiten** wurde entwickelt, um Konzernfinanzteams, Fondsadministratoren und Controllern zu helfen, Lieferantenrechnungen nahtlos auf Anlagen, Fonds, SPVs, Unternehmen und Geografien zu verteilen. Ersetzen Sie manuelle Gemeinkostenzuteilungs-Tabellen durch eine einheitliche, regelbasierte Engine, die Ihre Monatsabschluss-Buchhaltungsworkflows strafft und prüfungsfähige Journal-Vorbereitungsdaten erzeugt.
 
-**Keine Registrierung. Keine Installation. Kostenlos in Ihrem Browser.**
-
-Testen Sie die Browserversion kostenlos. Wenn Sie die Excel-Version benötigen, können Sie sie mit einer 30-tägigen Geld-zurück-Garantie ohne Fragen erwerben.
+> 🌐 **Live-Webanwendung (Testen Sie die Zuteilungs-Engine)**  
+> [Kostenlose webbasierte Rechnungszuteilungs-App starten (keine Installation erforderlich)](https://hyvoid.github.io/multi-entity-expense-allocation/)
 >
-> 🌐 **Im Browser öffnen (kostenlos)** → [hier](https://hyvoid.github.io/Dynamic-Invoice-Allocation-Multi-Entity-Cost-Distribution-Toolkit/)
->
-> 📥 **Excel herunterladen** → [Kauflink](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)
-> 
+> 📥 **Herunterladbare Excel-Datei (Halten Sie Ihre Finanzdaten sicher)**  
+> [Die wiederverwendbare Excel-Vorlage für die Kostenverteilung über mehrere Einheiten herunterladen (.xlsx)](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)
 
 ---
 
-## Was es Ihnen zu verfolgen hilft
+## Zielgruppen aus dem Finanzwesen & Kostenzuteilungsszenarien: Wer braucht diese Tabelle?
 
-- Lieferantenrechnungen, konsistent über mehrere rechtliche Einheiten und Betriebsanlagen zugeteilt.
-- Kostenverteilung nach Fonds, Geografie, SPV und Abrechnungsgesellschaft ohne Neuerstellung von Berichten.
-- Zuteilungsergebnisse unter verschiedenen Methodiken wie Anlagenanzahl, Kapazität oder Eigentumskapazität.
-- Fehlende oder nicht zugeordnete Zuteilungsziele vor dem Export von Buchungssätzen.
-- Vollständige Zuteilungs-Audit-Trails von der Originalrechnung bis zur jeder zugeteilten Transaktion.
-- Finanzfertige Zuteilungsübersichten, die mit importierten Quelldaten synchronisiert bleiben.
+Dieser Abschnitt ordnet bestimmte Finanzrollen den häufigsten Szenarien der Monatsabschlussberichterstattung zu, damit Sie genau die **Alternative zur Aufwandszuteilungssoftware** finden, nach der Sie suchen.
 
----
+### 1. Konzernfinanzteams & Group Controller
+- **Primäre Suchabsicht:** *Excel-Vorlage für die Zuteilung gemeinsamer Ausgaben, Tabelle für die konzerninterne Abrechnung*
+- **Betriebsszenario:** Verwaltung zentralisierter Betriebsausgaben, die ohne monatlichen Neuaufbau von Pivot-Tabellen anteilig auf mehrere Tochtergesellschaften, Kostenstellen und Zweigniederlassungen verteilt werden müssen.
 
-## Schnellstart-Arbeitsablauf
+### 2. Private Equity & Fondsadministratoren
+- **Primäre Suchabsicht:** *Rechner für die Fonds-Aufwandszuteilung, Tabelle für die Verteilung von SPV-Rechnungen*
+- **Betriebsszenario:** Weiterleitung komplexer Rechts-, Prüf- und Verwaltungsgebühren auf verschiedene Anlagevehikel (SPVs) und Fonds nach den Methodiken dynamischer Ownership Capacity oder Asset Count.
 
-### 1. Zuteilungsregeln einmal konfigurieren
+### 3. Asset Manager für Immobilien & Infrastruktur
+- **Primäre Suchabsicht:** *Vorlage für die Kostenverteilung von Immobilienportfolios, Multi-Asset-Buchhaltungsworkflow*
+- **Betriebsszenario:** Genaue Zuteilung gemeinsamer Wartungs- und Versorgungsrechnungen auf Portfolioebene an einzelne Betriebsanlagen unter Wahrung eines transparenten Audit-Trails für Investoren.
 
-Öffnen Sie das Blatt **Settings** und definieren Sie die wenigen Parameter, die die Arbeitsmappe steuern.
-
-Typische Beispiele:
-
-- Standard-Mehrwertsteuersatz
-- Währungssymbol
-- Zuteilungsbasis
-    - Anlagenanzahl
-    - Kapazität
-    - Eigentumskapazität
-
-Diese Einstellungen werden zur einzigen Wahrheitsquelle für jede Berechnung.
+### 4. Buchhalter von Family Offices
+- **Primäre Suchabsicht:** *Excel zur Aufwandsverfolgung über mehrere Einheiten, Kostenzuteilung im Vermögensmanagement*
+- **Betriebsszenario:** Standardisierung des Workflows zur Verteilung von Gemeinkosten auf mehrere Familienstiftungen und Rechtsträger, bevor die endgültigen Journalbuchungen in das zentrale ERP-System importiert werden.
 
 ---
 
-### 2. Bestehende Betriebsdaten importieren
+## Pain Points des Finanzbetriebs & automatisierte Zuteilungslösungen
 
-Fügen Sie die aktuelle Anlagen-Stammliste in **Asset Import** ein.
+Dieses Toolkit bildet die Brücke zwischen rohen Lieferantenrechnungen und Ihrer Finanzbuchhaltung (GL). Es übersetzt gängige Engpässe bei der Kostenteilung direkt in automatisierte Tabellenlösungen.
 
-Fügen Sie Lieferantenrechnungen in **Invoice Input** ein.
-
-Keine Umstrukturierung erforderlich.
-
-Daten können direkt stammen aus:
-
-- Exporten aus Buchhaltungssoftware
-- ERP-Berichten
-- CSV-Dateien
-- kopierten Tabellenkalkulationstabellen
-
-Die Arbeitsmappe erweitert sich automatisch, wenn weitere Zeilen hinzugefügt werden.
+| Engpass bei der Kostenzuteilung (Pain Point) | Eingebaute automatisierte Excel-Lösung | Finanzielle Auswirkung & KPI-Ziel |
+| :--- | :--- | :--- |
+| **Inkonsistente Gemeinkostenverteilung** | **Zentralisierte Zuteilungsregeln-Engine:** Wendet standardisierte Methodiken (Asset Count, Capacity, Ownership %) automatisch auf alle eingehenden Rechnungen an. | Beseitigt **Fehler bei der konzerninternen Abrechnung** und stellt die Einhaltung von Aufwandsrichtlinien sicher. |
+| **Verlorene Audit-Trails in Tabellen** | **End-to-End-Rechnungsrückverfolgung:** Verfolgt jeden zugeteilten Betrag bis zur ursprünglichen Lieferantenrechnung zurück und bewahrt die ursprünglichen Net-, VAT- und Gross-Werte. | Beschleunigt den **Monatsabschlussprozess** und vereinfacht die Prüfung durch externe Wirtschaftsprüfer. |
+| **Kaputte Pivot-Tabellen & manuelle Aktualisierungen** | **Dynamische Fonds- & Geografie-Übersichten:** Erzeugt automatisch berichtsfertige Kostenverteilungsberichte ohne manuelle Datenaktualisierungen. | Reduziert den Zeitaufwand für **Finanzberichterstattung über mehrere Einheiten** und Datenmanipulation. |
+| **Verwaiste Kosten & nicht zugeordnete Einheiten** | **Datenqualitäts- & Zuordnungsvalidierung:** Markiert fehlende Zuteilungsziele oder unbekannte Abrechnungseinheiten sofort, bevor Buchungen exportiert werden. | Verhindert **nicht erfasste Gemeinkosten** und stellt eine 100%ige Kostenerstattung über alle SPVs sicher. |
 
 ---
 
-### 3. Zuteilungsergebnisse sofort prüfen
+## Kostenzuteilung im Vergleich: Manuelle Tabellen vs. automatisierte Excel-Engine
 
-Wechseln Sie zu **Allocation Detail** oder **Allocation Summary**.
+Vermeiden Sie die häufigsten Fallen im Multi-Entity-Rechnungswesen, indem Sie Ihren Monatsabschluss-Workflow mit dieser strukturierten Vorlage modernisieren.
 
-Jede Rechnung wird automatisch nach der gewählten Zuteilungsmethodik verteilt.
-
-Keine Formeln müssen kopiert werden.
-
-Keine Pivot-Tabellen müssen aktualisiert werden.
-
-Keine manuellen Zuteilungsarbeitsblätter müssen gewartet werden.
+| Finanzberichterstattungs-Workflow | Traditionelle manuelle Tabellenverfolgung | Automatisiertes Kostenverteilungs-Toolkit (dieses Repository) |
+| :--- | :--- | :--- |
+| **Verwaltung mehrerer Rechtsträger** | **Duplizierte Logik:** Jeder Rechtsträger oder jedes SPV benötigt seinen eigenen Rechner, was redundante Arbeitsblätter und ein hohes Risiko von Formelfehlern erzeugt. | **Eine einzige Zuteilungs-Engine:** Ein zentrales Framework leitet Lieferantenrechnungen automatisch an die richtigen Anlagen weiter, basierend auf der gewählten Abrechnungseinheit. |
+| **Aktualisierung von Portfolio-Anlagenstrukturen** | **Manuelle Formelerweiterung:** Neue Anlagen erfordern, dass Finanzmitarbeiter Formeln manuell nachziehen, Bereiche erweitern und Prozentsummen prüfen. | **Dynamische Masterliste:** Neue Anlagen werden einfach an die Mastertabelle angehängt; Zuteilungsbereiche und anteilige Aufteilungen werden automatisch neu berechnet. |
+| **Abstimmung von Journalbuchungen** | **Blindes Fehlersuchen:** Finanzteams vergleichen manuell die verteilten Gesamtsummen über Dutzende Registerkarten hinweg, um einen Rundungsfehler von $0.01 zu finden. | **Automatisch abgestimmte Buchhaltungsdaten:** Jede zugeteilte Transaktion bleibt mathematisch an die Quellrechnung gebunden und garantiert Abstimmungen ohne Abweichungen. |
 
 ---
 
-### 4. Aktualisieren, wenn neue Rechnungen eintreffen
+## So automatisieren Sie die Kostenverteilung über mehrere Einheiten in 4 Schritten (Schnellstart-Tutorial)
 
-Ersetzen Sie importierte Anlagendaten, wenn sich Portfoliostrukturen ändern.
+Hören Sie auf, Pro-rata-Aufteilungen manuell zu berechnen. Folgen Sie dieser operationalen Abfolge, um einen zuverlässigen, prüfungsfähigen Aufwandszuteilungszyklus einzurichten:
 
-Hängen Sie neue Rechnungen an, wenn sie eintreffen.
+### Schritt 1: Konfigurieren Sie Ihre Zuteilungsregeln (Systemeinrichtung)
+Öffnen Sie das Blatt **Settings**, um die globalen Parameter zu definieren, die Ihre finanzielle Verteilung steuern:
+- Legen Sie Ihren Standard-Mehrwertsteuersatz und Ihr regionales Währungssymbol fest.
+- Wählen Sie Ihre primäre *Allocation Basis* (z. B. Asset Count, Physical Capacity oder Ownership Capacity).
+- *Feature Check:* Diese Parameter werden zur einzigen Wahrheitsquelle und beseitigen Formelinkonsistenzen über alle Blätter hinweg.
 
-Die Arbeitsmappe berechnet automatisch jede Zuteilung und Managementübersicht neu, ohne Berichte neu zu erstellen.
+### Schritt 2: ERP-/Buchhaltungsquelldaten importieren (Dateneingabe)
+Fügen Sie Ihre aktuellen Portfoliodaten in **Asset Import** ein und fügen Sie Lieferantenrechnungen in **Invoice Input** ein:
+- Daten können direkt aus Exporten von Buchhaltungssoftware, ERP-Berichten oder einfachen CSV-Dateien eingefügt werden—keine Umstrukturierung erforderlich.
+- Die Arbeitsmappe erweitert sich automatisch, um neue Zeilen aufzunehmen.
 
-**Ein paar Schlüsselparameter festlegen. Bestehende Daten einwerfen. Analyse erhalten. Bei Bedarf aktualisieren.**
+### Schritt 3: Prüfberichte zur Rechnungsverteilung prüfen (Abstimmung)
+Wechseln Sie zu den Dashboards **Allocation Detail** oder **Allocation Summary**:
+- Jede Rechnung wird automatisch nach Ihrer vordefinierten Methodik verteilt.
+- Prüfen Sie die *Data Health Checks*, um sicherzustellen, dass keine nicht zugeordneten Einheiten oder fehlenden Abrechnungsregeln Ihre Kostenweiterleitung blockieren.
 
----
+### Schritt 4: GL-Journalbuchungen exportieren & Ihre Vorlage sichern
+Erzeugen Sie Ihre endgültige, finanzfertige Zuteilungsübersicht. Sie können diese berechneten Zeilen nun problemlos in Ihre zentrale Buchhaltungsplattform exportieren.
 
-## Warum ich dies entwickelt habe
-
-Viele Finanzteams haben bereits Rechnungszuteilungs-Arbeitsmappen.
-
-Das Problem ist selten die Berechnung selbst.
-
-Das eigentliche Problem: Jede neue Abrechnungsgesellschaft, jedes neue Anlagevehikel oder jede neue Betriebseinheit führt meist ein weiteres Arbeitsblatt, einen weiteren kopierten Formelblock und eine weitere Gelegenheit für Zuteilungsfehler ein.
-
-Mit der Zeit werden diese Arbeitsmappen zu Sammlungen nahezu identischer Rechner, die schwer zu prüfen und fast unmöglich konsistent zu warten sind.
-
-Ich habe dieses Toolkit entwickelt, um duplizierte Berechnungsblätter durch ein wiederverwendbares Zuteilungs-Framework zu ersetzen.
-
-Statt separater Rechner für jede Einheit fließen Rechnungen durch eine einzige Zuteilungs-Engine, gesteuert durch Anlagen-Stammdaten und konfigurierbare Zuteilungsregeln.
-
-Zum Beispiel:
-
-**Vorher**
-
-Eine Wartungsrechnung für eine Portfoliogesellschaft trifft ein.
-
-Finanzmitarbeiter entscheiden manuell, welchen Rechner sie öffnen, kopieren Formeln, passen Bereiche an, prüfen Prozentsätze, aktualisieren Übersichten und prüfen, ob jeder zugeteilte Betrag noch mit der Originalrechnung übereinstimmt.
-
-Jede zusätzliche Einheit erhöht sowohl Arbeitsaufwand als auch Prüfrisiko.
-
-**Nachher**
-
-Die Rechnung wird einmal eingefügt.
-
-Das Zuteilungsziel identifiziert die relevante Anlagengruppe.
-
-Die Engine verteilt die Rechnung automatisch nach der gewählten Zuteilungsbasis, validiert fehlende Zuordnungen, erzeugt detaillierte Buchungssätze und aktualisiert sofort Fonds- und Geografie-Übersichten.
-
-Die Arbeitsmappe wird zu einem wiederverwendbaren Analyseprozess statt zu einer weiteren angepassten Tabellenkalkulation.
-## Häufige Rechnungszuteilungsprobleme, die dies löst
-
-| Problem | Ohne dieses Tool | Mit diesem Tool |
-|----------|-------------------|----------------|
-| Einheitenspezifische Zuteilungs-Arbeitsmappen | Jede rechtliche Einheit erfordert ihren eigenen Rechner, was duplizierte Logik und inkonsistente Wartung erzeugt. | Eine Zuteilungs-Engine leitet Rechnungen automatisch über die gewählte Abrechnungseinheit an die richtigen Anlagen. |
-| Zuteilungsregeln ändern sich mit der Zeit | Formelaktualisierungen müssen über viele Arbeitsblätter wiederholt werden, was das Risiko inkonsistenter Berechnungen erhöht. | Die Zuteilungsmethodik wird über ein einziges Settings-Blatt gesteuert und konsistent auf jede Rechnung angewendet. |
-| Anlagenportfolios ändern sich häufig | Neue Anlagen erfordern manuelle Formelerweiterung und Übersichtsaktualisierungen. Fehlende Bezüge bleiben oft unbemerkt. | Neue Anlagen werden der Anlagen-Stammtabelle hinzugefügt, und Zuteilungsbereiche erweitern sich automatisch. |
-| Zuteilungsabstimmung ist schwierig | Finanzteams vergleichen manuell Rechnungsgesamtsummen mit verteilten Beträgen über mehrere Arbeitsblätter. | Jede zugeteilte Zeile bleibt bis zur Originalrechnung zurückverfolgbar, während Net-, VAT- und Gross-Werte vollständig abgestimmt bleiben. |
-| Managementberichte erfordern manuelle Pivot-Tabellen | Fonds- und Geografie-Übersichten müssen nach jedem Berichtszyklus neu erstellt oder aktualisiert werden. | Übersichtsansichten aktualisieren sich automatisch, wenn neue Rechnungen und Anlagen importiert werden. |
-| Falsche Zuteilungsziele bleiben unbemerkt | Falsch geschriebene oder unbekannte Abrechnungseinheiten erzeugen oft unvollständige Zuteilungen ohne offensichtliche Warnungen. | Nicht zugeordnete Zuteilungsziele werden sofort markiert, damit Fehler vor der Buchung korrigiert werden können. |
+👉 **Bereit, Ihren Monatsabschluss-Zuteilungsworkflow zu standardisieren?**  
+Testen Sie Ihre Zuteilungsszenarien im kostenlosen Webrechner oben. Sobald Sie sehen, wie er Ihre Daten strafft, **[laden Sie hier die wiederverwendbare Excel-Vorlage für die Kostenverteilung über mehrere Einheiten herunter](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)**. Legen Sie Ihre Parameter einmal fest, fügen Sie Ihre Monatsdaten ein und erhalten Sie unbegrenzt offline sichere Zuteilungen für Ihr Unternehmen.
 
 ---
 
-## Für wen dies geeignet ist
+## Die Geschäftslogik & Methodik: So lösen wir die Aufwandszuteilung
 
-Diese Arbeitsmappe ist für Organisationen konzipiert, die gemeinsame Betriebskosten über mehrere Anlagen, rechtliche Einheiten, Anlagevehikel oder geografische Regionen verteilen und dabei einen transparenten Audit-Trail benötigen.
+Dieses Toolkit baut auf grundlegenden Prinzipien des internen Rechnungswesens auf. Es ist nicht nur eine Sammlung von VLOOKUPs, sondern eine strukturierte Methodik zur Lösung realer Multi-Entity-Abrechnungsprobleme:
 
-Typische Nutzer:
+1. **Entkopplung von Quelldaten und Berechnungslogik:** Der grundlegende Fehler der meisten Finanztabellen besteht darin, rohe Dateneingabe mit Berechnungsformeln zu vermischen. Dieses Tool trennt beides. Sie fügen rohe Rechnungen (das „Was“) und Anlagenlisten (das „Wo“) in isolierte Ebenen ein, während die Engine strikt die Verteilung (das „Wie“) nach Ihren Regeln übernimmt.
+2. **Pro-Rata- & Activity-Based Costing (ABC)-Bereitschaft:** Ob Sie Softwarelizenzen gleichmäßig nach *Asset Count* verteilen oder Lagermieten nach *Square Footage Capacity* aufteilen—das Tool übersetzt physische Betriebsrealitäten in präzise Finanzkennzahlen und stellt eine faire Kostenteilung über Joint Ventures oder SPVs sicher.
+3. **Unveränderliche Audit-Trails zur Compliance:** In der Fondsadministration und im Konzernfinanzwesen ist *wie* eine Zahl berechnet wurde genauso wichtig wie die Zahl selbst. Dieses Framework stellt sicher, dass jeder verteilte Kostenteil eine direkte, überprüfbare Verbindung zur ursprünglichen Lieferantenrechnung behält, und erfüllt damit Prüfanforderungen und interne Kontrollstandards.
 
-- Finanzteams in Unternehmen, die gemeinsame Betriebsausgaben verwalten.
-- Manager von Infrastruktur- und Renewable-Energy-Investitionen.
-- Verwalter von Immobilien-, Infrastruktur- und Private-Equity-Fonds.
-- Family Offices, die mehrgliedrige Betriebsstrukturen verwalten.
-- Buchhaltungsteams, die Zuteilungsjournale vor dem ERP-Import vorbereiten.
-- Finanzanalysten, verantwortlich für wiederkehrende Kostenzuteilung und Managementberichte.
+## Über den Entwickler
 
-Diese Arbeitsmappe soll **keine** ERP-Systeme oder unternehmensweite Buchhaltungsplattformen ersetzen. Stattdessen standardisiert sie einen der fehleranfälligsten Analyseprozesse, bevor Daten in diese Systeme gelangen.
+Ich entwickle leichtgewichtige Excel- und browserbasierte Entscheidungsunterstützungs-Tools für betriebliche Finanzprobleme mit zu vielen beweglichen Teilen, um sie allein aus dem Gedächtnis zuverlässig zu verwalten.
 
-Keine Tabellenkalkulations-Expertise erforderlich. Öffnen Sie die Browserversion oder die Excel-Arbeitsmappe, importieren Sie bestehende Daten und beginnen Sie sofort mit der Zuteilung von Rechnungen.
+Statt überladener Unternehmenssysteme konzentriere ich mich auf wiederverwendbare Analyse-Frameworks, die eine praktische Frage beantworten:
 
----
+**„Welche Informationen müssen an einem Ort sichtbar sein, um die nächste Finanzentscheidung sicher zu treffen?“**
 
-## Über
-
-Ich entwickle leichtgewichtige Excel- und browserbasierte Entscheidungsunterstützungs-Tools für betriebliche Probleme mit zu vielen beweglichen Teilen, um sie zuverlässig allein im Kopf zu verwalten.
-
-Statt großer Unternehmenssystemen konzentriere ich mich auf wiederverwendbare Analyse-Frameworks, die eine praktische Frage beantworten:
-
-**"Welche Informationen müssen an einem Ort sichtbar sein, um die nächste Entscheidung sicher zu treffen?"**
-
-Das Dynamic Invoice Allocation & Multi-Entity Cost Distribution Excel Toolkit ist ein Beispiel für diesen Ansatz—einen wiederholten finanziellen Zuteilungsprozess in einen wiederholbaren Analyse-Workflow zu verwandeln statt in eine weitere Sammlung kopierter Tabellenkalkulationen.
+Dieses Dynamic Invoice Allocation Toolkit ist der direkte Ausdruck dieser Philosophie—es verwandelt eine stressige, sich wiederholende Monatsabschlussroutine in einen vorhersagbaren, wiederholbaren Workflow.
 
 ---
 
@@ -179,7 +122,7 @@ Das Dynamic Invoice Allocation & Multi-Entity Cost Distribution Excel Toolkit is
 
 ## Arbeitsmappenarchitektur
 
-Die Arbeitsmappe folgt einer strengen Trennung zwischen Eingaben, Berechnungslogik, Validierung und Berichterstattung.
+Die Arbeitsmappe folgt einer strikten Trennung zwischen Eingaben, Berechnungslogik, Validierung und Berichterstattung.
 
 ```text
                 User Guidance
@@ -203,7 +146,7 @@ Die Arbeitsmappe folgt einer strengen Trennung zwischen Eingaben, Berechnungslog
  Allocation Detail      Allocation Summary
 ```
 
-| Ebene | Arbeitsblatt | Hauptverantwortung |
+| Ebene | Arbeitsblatt | Hauptverantwortlichkeit |
 |--------|-----------|------------------------|
 | Anleitung | Instructions | Betriebsverfahren und Fehlerbehebung |
 | Konfiguration | Settings | Mehrwertsteuer, Währung, Zuteilungsmethodik |
@@ -223,19 +166,19 @@ Asset Import ---> Allocation Engine ---> Allocation Detail
 Invoice Input -----------------------> Allocation Summary
 ```
 
-Validierung erfolgt vor der Berichterstattung.
+Die Validierung erfolgt vor der Berichterstattung.
 
-Rechnungen können nur erfolgreich zugeteilt werden, wenn die Abrechnungseinheit in der Anlagen-Stammtabelle existiert.
+Rechnungen können nur dann erfolgreich zugeteilt werden, wenn die Abrechnungseinheit in der Anlagen-Mastertabelle existiert.
 
 ---
 
-## Drei Fallen, die selbst erfahrene Finanzteams fangen
+## Drei Fallen, die selbst erfahrene Finanzteams hereinlegen
 
-### Falle 1 — Einheitenspezifische Zuteilungsarbeitsblätter kopieren
+### Falle 1 — Kopieren einheitenspezifischer Zuteilungsarbeitsblätter
 
 **Entscheidung**
 
-Eine neue Betriebsgesellschaft wird hinzugefügt.
+Ein neues Betriebsunternehmen wird hinzugefügt.
 
 Eine Kopie eines bestehenden Zuteilungsarbeitsblatts wird erstellt.
 
@@ -245,23 +188,23 @@ Eine Kopie eines bestehenden Zuteilungsarbeitsblatts wird erstellt.
 | Duplizierte Formeln | Dynamische Arrays erweitern sich automatisch |
 | Mehrere Logikkopien warten | Ein Berechnungsmodell warten |
 
-Die kopierte Arbeitsmappe produziert zunächst die richtigen Zahlen.
+Die kopierte Arbeitsmappe liefert zunächst die richtigen Zahlen.
 
-Einige Monate später ändern sich die Zuteilungsregeln.
+Mehrere Monate später ändern sich die Zuteilungsregeln.
 
 Nur einige Arbeitsblätter erhalten die aktualisierten Formeln.
 
-Die Organisation betreibt jetzt mehrere Versionen derselben Zuteilungsmethodik.
+Die Organisation betreibt nun mehrere Versionen derselben Zuteilungsmethodik.
 
 ### Warum die Begründung scheitert
 
 Das analytische Modell ist in duplizierten Arbeitsblättern eingebettet statt in zentralisierten Geschäftsregeln.
 
-### Korrekter Ansatz
+### Richtiger Ansatz
 
-Eine Zuteilungs-Engine warten.
+Pflegen Sie eine einzige Zuteilungs-Engine.
 
-Nur Anlagen-Stammdaten und Zuteilungsparameter ändern sich.
+Nur Anlagenstammdaten und Zuteilungsparameter ändern sich.
 
 Berechnungslogik muss nie dupliziert werden.
 
@@ -274,7 +217,7 @@ Berechnungslogik muss nie dupliziert werden.
 - LAMBDA()
 - Dynamic Spill Arrays
 
-Eine Formel erzeugt die vollständige Zuteilungstabelle.
+Eine einzige Formel erzeugt die vollständige Zuteilungstabelle.
 
 </details>
 
@@ -289,7 +232,7 @@ Jede Anlage erhält einen gleichen Prozentsatz der Betriebskosten.
 | Gleiche Aufteilung | Kapazitätsbasierte Zuteilung |
 |--------------|--------------------------|
 | 25% | Kapazitätsanteil |
-| Ignoriert die Anlagengröße | Spiegelt die betriebliche Exposure wider |
+| Ignoriert die Anlagengröße | Spiegelt die betriebliche Belastung wider |
 
 Beispiel:
 
@@ -299,24 +242,24 @@ Eine Anlage repräsentiert 60 MW.
 
 Drei Anlagen repräsentieren nur je 10 MW.
 
-Gleiche Zuteilung untertreibt die größte Betriebsanlage und übertreibt kleinere Anlagen.
+Gleiche Zuteilung unterschätzt die größte Betriebsanlage und überschätzt die kleineren Anlagen.
 
-### Korrekter Ansatz
+### Richtiger Ansatz
 
 Die Zuteilungsmethodik sollte die Betriebsökonomie widerspiegeln.
 
 Die Arbeitsmappe unterstützt:
 
-- Anlagenanzahl
-- Kapazität
-- Eigentumskapazität
+- Asset Count
+- Capacity
+- Ownership Capacity
 
 ohne Änderung der nachgelagerten Berichte.
 
 <details>
 <summary>Formelprinzipien</summary>
 
-Zuteilungsverhältnisse werden dynamisch über eine SWITCH-Anweisung ausgewählt, die auf das Settings-Blatt verweist.
+Zuteilungsverhältnisse werden dynamisch über eine SWITCH-Anweisung ausgewählt, die auf das Blatt Settings verweist.
 
 </details>
 
@@ -328,9 +271,9 @@ Zuteilungsverhältnisse werden dynamisch über eine SWITCH-Anweisung ausgewählt
 
 Rechnungen werden sofort nach dem Import zugeteilt.
 
-Die Abrechnungseinheit enthält eine Schreibweise-Inkonsistenz.
+Die Abrechnungseinheit enthält eine Schreibweiseninkonsistenz.
 
-Statt den Prozess zu stoppen, erzeugen viele Tabellenkalkulationen einfach leere Lookups.
+Statt den Prozess zu stoppen, erzeugen viele Tabellen einfach leere Lookups.
 
 Managementberichte erscheinen vollständig, während ein Teil der Rechnung nicht zugeteilt bleibt.
 
@@ -338,16 +281,16 @@ Managementberichte erscheinen vollständig, während ein Teil der Rechnung nicht
 
 Fehlende Stammdatenbeziehungen werden zu versteckten Buchhaltungsfehlern.
 
-### Korrekter Ansatz
+### Richtiger Ansatz
 
-Unbekannte Abrechnungseinheiten werden sofort als **Unmapped Target** markiert, bevor gebucht wird.
+Unbekannte Abrechnungseinheiten werden vor der Finanzbuchung sofort als **⚠ Unmapped Target** markiert.
 
-Die Zuteilung wird nur fortgesetzt, nachdem die Stammdaten korrigiert wurden.
+Die Zuteilung wird erst fortgesetzt, nachdem die Stammdaten korrigiert wurden.
 
 <details>
 <summary>Formelprinzipien</summary>
 
-FILTER() validiert die Einheitenmitgliedschaft.
+FILTER() validiert die Zugehörigkeit der Einheit.
 
 Wenn keine passenden Anlagen existieren, erzeugt die Engine einen expliziten Warndatensatz statt stiller Berechnungsfehler.
 
@@ -357,26 +300,26 @@ Wenn keine passenden Anlagen existieren, erzeugt die Engine einen expliziten War
 
 ## Beispielszenario
 
-Ein Manager für Renewable-Energy-Investitionen erhält eine Lieferantenrechnung für jährliche Wartung über insgesamt **£240,000** vor Mehrwertsteuer.
+Ein Manager für Investitionen in erneuerbare Energien erhält eine Lieferantenrechnung für die jährliche Wartung über insgesamt **£240,000** vor Mehrwertsteuer.
 
-Die Rechnung wird der Betriebsgesellschaft zugewiesen, die für vier Solaranlagen verantwortlich ist.
+Die Rechnung wird dem Betriebsunternehmen zugewiesen, das für vier Solaranlagen verantwortlich ist.
 
-Die in **Settings** gewählte Zuteilungsmethodik ist **Eigentumskapazität**.
+Die in **Settings** gewählte Zuteilungsmethodik ist **Ownership Capacity**.
 
-Die Anlagen-Stammtabelle enthält die folgenden Eigentumskapazitäten:
+Die Anlagen-Mastertabelle enthält die folgenden Ownership Capacity-Werte:
 
-| Anlage | Eigentumskapazität (MW) |
+| Anlage | Ownership Capacity (MW) |
 |-------|-------------------------:|
 | Anlage A | 60 |
 | Anlage B | 30 |
 | Anlage C | 20 |
 | Anlage D | 10 |
 
-Die Gesamteigentumskapazität beträgt **120 MW**.
+Die Gesamt-Ownership Capacity beträgt **120 MW**.
 
 Die Zuteilungs-Engine berechnet automatisch proportionale Zuteilungsverhältnisse von **50%**, **25%**, **16.67%** und **8.33%**.
 
-Statt £60,000 gleichmäßig auf jede Anlage zu verteilen, verteilt die Arbeitsmappe die Kosten nach tatsächlicher wirtschaftlicher Eigentümerschaft:
+Statt £60,000 gleichmäßig auf jede Anlage zu verteilen, verteilt die Arbeitsmappe die Kosten nach der tatsächlichen wirtschaftlichen Eigentümerschaft:
 
 | Anlage | Zugewiesenes Netto |
 |-------|--------------:|
@@ -385,11 +328,11 @@ Statt £60,000 gleichmäßig auf jede Anlage zu verteilen, verteilt die Arbeitsm
 | Anlage C | £40,000 |
 | Anlage D | £20,000 |
 
-Die Mehrwertsteuer wird automatisch mit entweder dem rechnungsspezifischen Override oder der globalen Mehrwertsteuereinstellung berechnet.
+Die Mehrwertsteuer wird automatisch berechnet—entweder mit dem rechnungsspezifischen Override oder der globalen Mehrwertsteuereinstellung.
 
-Die resultierende Zuteilungstabelle aktualisiert sofort Fonds- und Geografie-Übersichten unter Wahrung vollständiger Rückverfolgbarkeit bis zur Original-Lieferantenrechnung.
+Die resultierende Zuteilungstabelle aktualisiert sofort die Fonds- und Geografie-Übersichten und bewahrt dabei die vollständige Rückverfolgbarkeit bis zur ursprünglichen Lieferantenrechnung.
 
-Dieser Ansatz verbessert die Kostenattribution, reduziert manuelle Abstimmung und erzeugt Zuteilungsdatensätze, die für Buchhaltungsprüfung und ERP-Import geeignet sind.
+Dieser Ansatz verbessert die Kostenzuordnung, reduziert die manuelle Abstimmung und erzeugt Zuteilungsdatensätze, die für die Buchhaltungsprüfung und den ERP-Import geeignet sind.
 
 ## Formelreferenz
 
@@ -419,28 +362,28 @@ IF(VAT Override="", Default VAT Rate, VAT Override)
 
 **Zweck**
 
-Definiert die Zuteilungsmethodik, die über die gesamte Arbeitsmappe angewendet wird.
+Definiert die Zuteilungsmethodik, die auf die gesamte Arbeitsmappe angewendet wird.
 
 Unterstützte Optionen:
 
-- Anlagenanzahl
-- Kapazität
-- Eigentumskapazität
+- Asset Count
+- Capacity
+- Ownership Capacity
 
-Die Zuteilungs-Engine verweist dynamisch auf diesen Parameter, wodurch die Zuteilungsmethodik ohne Änderung von Formeln geändert werden kann.
+Die Zuteilungs-Engine referenziert diesen Parameter dynamisch, sodass die Zuteilungsmethodik ohne Änderung einer Formel geändert werden kann.
 
 </details>
 
 ---
 
 <details>
-<summary><strong>Anlagenimport</strong></summary>
+<summary><strong>Asset Import</strong></summary>
 
-### Eigentumskapazität
+### Ownership Capacity
 
 **Zweck**
 
-Berechnet die effektive Eigentumskapazität für proportionale Zuteilung.
+Berechnet die effektive Ownership Capacity, die für die proportionale Zuteilung verwendet wird.
 
 **Formel**
 
@@ -450,8 +393,8 @@ Berechnet die effektive Eigentumskapazität für proportionale Zuteilung.
 
 Wobei:
 
-- G = Eigentum %
-- H = Kapazität (MW)
+- G = Ownership %
+- H = Capacity (MW)
 
 Die Berechnung erweitert sich automatisch, wenn weitere Anlagen importiert werden.
 
@@ -460,7 +403,7 @@ Die Berechnung erweitert sich automatisch, wenn weitere Anlagen importiert werde
 ---
 
 <details>
-<summary><strong>Rechnungseingabe</strong></summary>
+<summary><strong>Invoice Input</strong></summary>
 
 ### Steuerpflichtiges Netto
 
@@ -508,24 +451,24 @@ Erzeugt den buchhaltungsfertigen Bruttorechnungsbetrag.
 <details>
 <summary><strong>Zuteilungs-Engine</strong></summary>
 
-Die Zuteilungs-Engine ist absichtlich als einzelne Dynamic-Array-Formel implementiert.
+Die Zuteilungs-Engine ist bewusst als eine einzige Dynamic-Array-Formel implementiert.
 
-Wichtige Excel-Funktionen umfassen:
+Wichtige Excel-Funktionen sind:
 
 | Funktion | Zweck |
 |----------|----------|
 | LET | Variablendefinition und verbesserte Lesbarkeit |
-| FILTER | Anlagen der gewählten Abrechnungseinheit zuordnen |
-| REDUCE | Jede importierte Rechnung durchlaufen |
-| LAMBDA | Wiederverwendbare zeilenweise Zuteilungslogik |
-| SWITCH | Zuteilungsmethodik dynamisch auswählen |
-| MAKEARRAY | Zuteilungszeilen automatisch erzeugen |
-| HSTACK | Ausgabespalten zusammenfügen |
-| VSTACK | Rechnungs-Zuteilungsblöcke anhängen |
+| FILTER | Zuordnung der Anlagen, die zur gewählten Abrechnungseinheit gehören |
+| REDUCE | Durchlauf jeder importierten Rechnung |
+| LAMBDA | Wiederverwendbare Zuteilungslogik auf Zeilenebene |
+| SWITCH | Dynamische Auswahl der Zuteilungsmethodik |
+| MAKEARRAY | Automatische Erzeugung der Zuteilungszeilen |
+| HSTACK | Zusammensetzen der Ausgabespalten |
+| VSTACK | Anhängen der Rechnungs-Zuteilungsblöcke |
 
-Zuteilungsverhältnisse werden nach der konfigurierten Methodik erzeugt:
+Die Zuteilungsverhältnisse werden gemäß der konfigurierten Methodik erzeugt:
 
-### Anlagenanzahl
+### Asset Count
 
 ```text
 Allocation Ratio = 1 ÷ Number of Matching Assets
@@ -533,7 +476,7 @@ Allocation Ratio = 1 ÷ Number of Matching Assets
 
 ---
 
-### Kapazität
+### Capacity
 
 ```text
 Allocation Ratio
@@ -549,7 +492,7 @@ Total Capacity
 
 ---
 
-### Eigentumskapazität
+### Ownership Capacity
 
 ```text
 Allocation Ratio
@@ -565,9 +508,9 @@ Total Ownership Capacity
 
 Die resultierenden Zuteilungsverhältnisse werden multipliziert mit:
 
-- Nettobetrag
-- Mehrwertsteuer
-- Bruttobetrag
+- Net Amount
+- VAT
+- Gross Amount
 
 um vollständig abgestimmte Zuteilungsdatensätze zu erzeugen.
 
@@ -588,7 +531,7 @@ SORT()
 FILTER()
 ```
 
-um die vollständige Fondsdimension automatisch zu erzeugen.
+um die vollständige Fonds-Dimension automatisch zu erzeugen.
 
 ---
 
@@ -608,9 +551,9 @@ SUMIFS()
 
 für
 
-- Netto
-- Mehrwertsteuer
-- Brutto
+- Net
+- VAT
+- Gross
 
 ohne Pivot-Tabellen.
 
@@ -622,18 +565,18 @@ ohne Pivot-Tabellen.
 
 | Feld | Validierungsregel | Fehlerverhalten |
 |--------|-----------------|----------------|
-| Invoice Number | Darf für aktive Datensätze nicht leer sein | Zeile ignoriert |
-| Invoice Date | Muss ein gültiges Excel-Datum sein | Benutzerkorrektur erforderlich |
+| Invoice Number | Darf bei aktiven Datensätzen nicht leer sein | Zeile wird ignoriert |
+| Invoice Date | Muss ein gültiges Excel-Datum sein | Korrektur durch den Benutzer erforderlich |
 | Quantity | Muss numerisch und ≥ 0 sein | Berechnung verhindert |
 | Unit Price | Muss numerisch sein | Berechnung verhindert |
-| Allocation Target | Muss einer existierenden Company to Invoice entsprechen | Warndatensatz erzeugt |
-| VAT Override | Leer oder gültiger Prozentsatz | Fällt auf Standard-Mehrwertsteuer zurück |
+| Allocation Target | Muss einer vorhandenen Company to Invoice entsprechen | Warndatensatz wird erzeugt |
+| VAT Override | Leer oder gültiger Prozentsatz | Fällt auf Default VAT zurück |
 | Company to Invoice | Muss in Asset Import existieren | Zuteilung blockiert |
-| Ownership % | Zwischen 0% und 100% | Ungültige Werte ausgeschlossen |
+| Ownership % | Zwischen 0% und 100% | Ungültige Werte werden ausgeschlossen |
 | Capacity | Muss positiv sein | Kapazitätszuteilung nicht verfügbar |
-| Ownership Capacity | Nur formelerzeugt | Geschützte Spalte |
+| Ownership Capacity | Nur durch Formel erzeugt | Geschützte Spalte |
 | Default VAT Rate | Zwischen 0% und 100% | Konfigurationswarnung |
-| Allocation Basis | Asset Count / Capacity / Ownership Capacity | Standard ist Anlagenanzahl |
+| Allocation Basis | Asset Count / Capacity / Ownership Capacity | Standard ist Asset Count |
 
 ### Automatische Schutzbedingungen
 
@@ -641,8 +584,8 @@ ohne Pivot-Tabellen.
 - Leere Anlagenzeilen werden ignoriert.
 - Unbekannte Abrechnungseinheiten erzeugen einen **⚠ Unmapped Target**-Datensatz.
 - Dynamische Arrays erweitern sich automatisch ohne kopierte Formeln.
-- Übersichtsberichte aktualisieren sich automatisch nach Neuberechnung.
-- Alle zugeteilten Net-, Mehrwertsteuer- und Bruttogesamtsummen stimmen auf ihre Ursprungsrechnung zurück.
+- Übersichtsberichte werden nach der Neuberechnung automatisch aktualisiert.
+- Alle zugeteilten Net-, VAT- und Gross-Summen stimmen mit ihrer Ursprungsrechnung überein.
 
 </details>
 
@@ -652,9 +595,9 @@ ohne Pivot-Tabellen.
 
 Diese Arbeitsmappen folgen derselben Designphilosophie: leichtgewichtige Analyse-Frameworks, die wiederkehrende betriebliche Entscheidungen vereinfachen, ohne Unternehmenssysteme zu ersetzen.
 
-- **Demand-Adaptive Inventory Planning & Purchasing Decision Toolkit** — Bestandsplanung, Nachbestellungszeitpunkt und Einkaufssimulation.
+- **Demand-Adaptive Inventory Planning & Purchasing Decision Toolkit** — Bestandsplanung, Nachbestellzeitpunkt und Einkaufssimulation.
 - **Restaurant Menu Master Workbook** — Zentrale Menükonfiguration, Modifier-Verwaltung und Preisgovernance.
-- **Retail & Maquila Inventory Ledger** — Bestand vom Großeinkauf über Auftragsfertigung bis zum Fertig-SKU-Verkauf verfolgen.
+- **Retail & Maquila Inventory Ledger** — Bestandsverfolgung vom Großeinkauf über Auftragsfertigung bis zum Verkauf fertiger SKUs.
 - **Construction Estimate & Cost Tracking Toolkit** — Mengenermittlung, Kostenschätzung und Projektbudgetüberwachung.
 - Weitere Tools sind über das GitHub-Repository und unsere [Website](https://www.theseusworkshop.com/) verfügbar.
 
@@ -664,6 +607,6 @@ Diese Arbeitsmappen folgen derselben Designphilosophie: leichtgewichtige Analyse
 
 Dieses Projekt ist unter der **Apache License 2.0** lizenziert.
 
-Sie dürfen diese Arbeitsmappe gemäß den Bedingungen der Apache License 2.0 verwenden, modifizieren und verteilen.
+Sie dürfen diese Arbeitsmappe gemäß den Bedingungen der Apache License 2.0 verwenden, ändern und verbreiten.
 
-Siehe die Datei `LICENSE` für den vollständigen Lizenztext.
+Den vollständigen Lizenztext finden Sie in der Datei `LICENSE`.
