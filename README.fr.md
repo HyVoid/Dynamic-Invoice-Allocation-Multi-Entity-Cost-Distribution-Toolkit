@@ -1,172 +1,115 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
-# Allocation dynamique de factures & distribution des coûts multi-entités — boîte à outils Excel
+
+# 📊 Modèle Excel dynamique d'allocation de factures & système de distribution des coûts multi-entités
+<img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/3a80f546-ec3c-47a2-a89f-c0ecc823e961" />
+
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
-![Tool](https://img.shields.io/badge/Tool-Decision%20Support-orange)
+![Tool](https://img.shields.io/badge/Tool-Financial%20Decision%20Support-orange)
 
-**Répartissez automatiquement les factures fournisseurs entre actifs, fonds, entreprises et zones géographiques à l'aide de règles d'allocation configurables—disponible en version navigateur gratuite et en classeur Excel, sans installation.**
+Vous recherchez un **modèle Excel fiable d'allocation de factures** ? Ce **système automatisé de distribution des coûts multi-entités** est conçu pour aider les équipes de finance d'entreprise, les administrateurs de fonds et les contrôleurs à répartir sans effort les factures fournisseurs entre actifs, fonds, SPVs, sociétés et zones géographiques. Remplacez vos tableurs manuels d'allocation des frais généraux par un moteur unifié basé sur des règles qui rationalise vos flux de travail comptables de clôture mensuelle et génère des données de préparation d'écritures prêtes pour l'audit.
 
-**Aucune inscription. Aucune installation. Gratuit dans votre navigateur.**
-
-Essayez gratuitement la version navigateur. Si vous avez besoin de la version Excel, vous pouvez l'acheter avec une garantie de remboursement de 30 jours sans questions.
+> 🌐 **Application web en ligne (Testez le moteur d'allocation)**  
+> [Lancer l'application gratuite de calcul d'allocation de factures dans le navigateur (sans installation)](https://hyvoid.github.io/multi-entity-expense-allocation/)
 >
-> 🌐 **Ouvrir dans le navigateur (gratuit)** → [ici](https://hyvoid.github.io/Dynamic-Invoice-Allocation-Multi-Entity-Cost-Distribution-Toolkit/)
->
-> 📥 **Télécharger Excel** → [lien d'achat](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)
-> 
+> 📥 **Fichier Excel téléchargeable (Gardez vos données financières en sécurité)**  
+> [Télécharger le modèle Excel réutilisable de distribution des coûts multi-entités (.xlsx)](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)
 
 ---
 
-## Ce qu'il vous aide à suivre
+## Utilisateurs finance cibles & scénarios d'imputation des coûts : qui a besoin de ce tableur ?
 
-- Les factures fournisseurs allouées de manière cohérente entre plusieurs entités juridiques et actifs d'exploitation.
-- La distribution des coûts par Fonds, Géographie, SPV et société de facturation sans reconstruire les rapports.
-- Les résultats d'allocation selon différentes méthodologies telles que Nombre d'actifs, Capacité ou Capacité de propriété.
-- Les cibles d'allocation manquantes ou non mappées avant l'exportation des écritures comptables.
-- Des pistes d'audit d'allocation complètes, de la facture d'origine jusqu'à chaque transaction allouée.
-- Des résumés d'allocation prêts pour la finance qui restent synchronisés avec les données source importées.
+Cette section associe des fonctions financières spécifiques à leurs scénarios de reporting de clôture mensuelle les plus courants, afin que vous trouviez exactement **l'alternative logicielle d'allocation des dépenses** que vous recherchez.
 
----
+### 1. Équipes de finance d'entreprise & contrôleurs de groupe
+- **Intention de recherche principale :** *modèle Excel d'allocation des dépenses partagées, tableur de facturation intragroupe*
+- **Scénario opérationnel :** Gérer des charges d'exploitation centralisées qui doivent être réparties proportionnellement entre plusieurs filiales, centres de coûts et succursales sans reconstruire les tableaux croisés dynamiques chaque mois.
 
-## Flux de travail de démarrage rapide
+### 2. Capital-investissement & administrateurs de fonds
+- **Intention de recherche principale :** *calculateur d'allocation des frais de fonds, tableur de distribution des factures de SPV*
+- **Scénario opérationnel :** Acheminer les honoraires juridiques, d'audit et de gestion complexes vers divers véhicules d'investissement (SPVs) et fonds selon des méthodologies dynamiques de Ownership Capacity ou d'Asset Count.
 
-### 1. Configurer les règles d'allocation une seule fois
+### 3. Gestionnaires d'actifs immobiliers & d'infrastructures
+- **Intention de recherche principale :** *modèle de distribution des coûts de portefeuille immobilier, flux comptable multi-actifs*
+- **Scénario opérationnel :** Allouer avec précision les factures partagées de maintenance et de services publics au niveau du portefeuille aux actifs d'exploitation individuels, tout en conservant une piste d'audit transparente pour les investisseurs.
 
-Ouvrez la feuille **Settings** et définissez les quelques paramètres qui contrôlent le classeur.
-
-Exemples typiques :
-
-- Taux de TVA par défaut
-- Symbole monétaire
-- Base d'allocation
-    - Nombre d'actifs
-    - Capacité
-    - Capacité de propriété
-
-Ces paramètres deviennent la source de vérité unique utilisée dans chaque calcul.
+### 4. Comptables de family offices
+- **Intention de recherche principale :** *Excel de suivi des dépenses multi-entités, allocation des coûts de gestion de patrimoine*
+- **Scénario opérationnel :** Standardiser le flux de travail de répartition des frais généraux entre plusieurs fiducies familiales et entités juridiques avant d'importer les écritures comptables finales dans le système ERP central.
 
 ---
 
-### 2. Importer les données opérationnelles existantes
+## Points de douleur des opérations financières & solutions d'allocation automatisées
 
-Collez la dernière liste maîtresse des actifs dans **Asset Import**.
+Cette boîte à outils fait le pont entre les factures fournisseurs brutes et votre comptabilité générale (GL). Elle traduit les goulots d'étranglement courants du partage des coûts directement en solutions de tableurs automatisées.
 
-Collez les factures fournisseurs dans **Invoice Input**.
-
-Aucune restructuration n'est requise.
-
-Les données peuvent provenir directement de :
-
-- exports de logiciels comptables
-- rapports ERP
-- fichiers CSV
-- tableurs copiés
-
-Le classeur s'étend automatiquement à mesure que des lignes sont ajoutées.
+| Goulot d'étranglement d'allocation des coûts (point de douleur) | Solution Excel automatisée intégrée | Impact financier & objectif de KPI |
+| :--- | :--- | :--- |
+| **Répartition incohérente des frais généraux** | **Moteur centralisé de règles d'allocation :** Applique automatiquement des méthodologies standardisées (Asset Count, Capacity, Ownership %) à toutes les factures entrantes. | Élimine les **erreurs de facturation intragroupe** et garantit la conformité aux politiques de dépenses. |
+| **Pistes d'audit perdues dans les tableurs** | **Traçabilité des factures de bout en bout :** Rejoue chaque montant alloué jusqu'à la facture fournisseur d'origine, en préservant les valeurs Net, VAT et Gross d'origine. | Accélère le **processus de clôture mensuelle** et simplifie les revues des auditeurs externes. |
+| **Tableaux croisés dynamiques cassés & mises à jour manuelles** | **Résumés dynamiques Fonds & Géographie :** Génère automatiquement des rapports de distribution des coûts prêts pour la gestion, sans actualisation manuelle des données. | Réduit le temps consacré au **reporting financier multi-entités** et à la manipulation des données. |
+| **Coûts orphelins & entités non mappées** | **Validation de la santé des données et du mapping :** Signale immédiatement les cibles d'allocation manquantes ou les entités de facturation non reconnues avant l'exportation des écritures. | Empêche les **frais généraux non capturés**, garantissant une récupération de coûts à 100 % entre les SPVs. |
 
 ---
 
-### 3. Examiner les résultats d'allocation instantanément
+## Comparaison de l'imputation des coûts : tableurs manuels vs. moteur Excel automatisé
 
-Passez à **Allocation Detail** ou **Allocation Summary**.
+Évitez les pièges les plus courants de la comptabilité multi-entités en modernisant votre flux de clôture mensuelle avec ce modèle structuré.
 
-Chaque facture est automatiquement distribuée selon la méthodologie d'allocation sélectionnée.
-
-Aucune formule n'a besoin d'être copiée.
-
-Aucun tableau croisé dynamique n'a besoin d'être actualisé.
-
-Aucune feuille d'allocation manuelle n'a besoin d'être maintenue.
+| Flux de reporting financier | Suivi manuel traditionnel sur tableur | Boîte à outils automatisée de distribution des coûts (ce dépôt) |
+| :--- | :--- | :--- |
+| **Gestion de plusieurs entités juridiques** | **Logique dupliquée :** Chaque entité juridique ou SPV exige son propre calculateur, créant des feuilles redondantes et un risque élevé de corruption de formules. | **Moteur d'allocation unique :** Un cadre centralisé achemine automatiquement les factures fournisseurs vers les bons actifs selon l'entité de facturation sélectionnée. |
+| **Mise à jour des structures d'actifs du portefeuille** | **Extension manuelle des formules :** Les nouveaux actifs exigent que le personnel financier tire les formules manuellement, étende les plages et vérifie les totaux en pourcentage. | **Liste maîtresse dynamique :** Les nouveaux actifs sont simplement ajoutés à la table maîtresse ; les plages d'allocation et les répartitions proportionnelles se recalculent automatiquement. |
+| **Rapprochement des écritures comptables** | **Débogage à l'aveugle :** Les équipes financières comparent manuellement les montants totaux distribués sur des dizaines d'onglets pour trouver une erreur d'arrondi de $0.01. | **Grands livres auto-rapprochés :** Chaque transaction allouée reste mathématiquement verrouillée sur la facture source, garantissant des rapprochements sans écart. |
 
 ---
 
-### 4. Actualiser à l'arrivée de nouvelles factures
+## Comment automatiser la distribution des coûts multi-entités en 4 étapes (tutoriel de démarrage rapide)
 
-Remplacez les données d'actifs importées chaque fois que les structures de portefeuille changent.
+Arrêtez de calculer manuellement les répartitions au prorata. Suivez cette séquence opérationnelle pour établir un cycle d'allocation des dépenses fiable et prêt pour l'audit :
 
-Ajoutez les nouvelles factures au fur et à mesure.
+### Étape 1 : Configurez vos règles d'imputation des coûts (configuration du système)
+Ouvrez la feuille **Settings** pour définir les paramètres globaux qui pilotent votre distribution financière :
+- Définissez votre taux de TVA par défaut et votre symbole monétaire régional.
+- Choisissez votre *Allocation Basis* principale (par exemple Asset Count, Physical Capacity ou Ownership Capacity).
+- *Feature Check :* Ces paramètres deviennent la source de vérité unique, éliminant les incohérences de formules entre les feuilles.
 
-Le classeur recalcule automatiquement chaque allocation et résumé de gestion sans reconstruire les rapports.
+### Étape 2 : Importez les données sources ERP/comptabilité (saisie des données)
+Collez les données les plus récentes de votre portefeuille dans **Asset Import** et collez les factures fournisseurs dans **Invoice Input** :
+- Les données peuvent être collées directement depuis des exports de logiciels comptables, des rapports ERP ou de simples fichiers CSV—aucune restructuration requise.
+- Le classeur s'étend automatiquement pour absorber les nouvelles lignes.
 
-**Définissez quelques paramètres clés. Déposez vos données existantes. Obtenez l'analyse. Actualisez quand vous voulez.**
+### Étape 3 : Auditez les résumés de distribution des factures (rapprochement)
+Passez aux tableaux de bord **Allocation Detail** ou **Allocation Summary** :
+- Chaque facture est automatiquement distribuée selon votre méthodologie prédéfinie.
+- Vérifiez les *Data Health Checks* pour vous assurer qu'aucune entité non mappée ou règle de facturation manquante ne bloque l'acheminement de vos coûts.
 
----
+### Étape 4 : Exportez les écritures comptables GL & sécurisez votre modèle
+Générez votre résumé d'allocation final, prêt pour la finance. Vous pouvez désormais facilement exporter ces lignes calculées vers votre plateforme comptable principale.
 
-## Pourquoi j'ai conçu ceci
-
-Beaucoup d'équipes finance disposent déjà de classeurs d'allocation de factures.
-
-Le problème est rarement le calcul lui-même.
-
-Le vrai problème : chaque nouvelle société de facturation, véhicule d'investissement ou entité d'exploitation introduit généralement une autre feuille de calcul, un autre bloc de formules copié et une autre occasion d'erreurs d'allocation.
-
-Avec le temps, ces classeurs deviennent des collections de calculateurs presque identiques, difficiles à auditer et presque impossibles à maintenir de manière cohérente.
-
-J'ai conçu cette boîte à outils pour remplacer les feuilles de calcul dupliquées par un cadre d'allocation réutilisable.
-
-Au lieu de maintenir des calculateurs séparés pour chaque entité, les factures traversent un unique moteur d'allocation piloté par les données maîtresses des actifs et des règles d'allocation configurables.
-
-Par exemple :
-
-**Avant**
-
-Une facture de maintenance pour une société de portefeuille arrive.
-
-Le personnel financier décide manuellement quel calculateur ouvrir, copie les formules, ajuste les plages, vérifie les pourcentages, actualise les résumés et vérifie si chaque montant alloué correspond encore à la facture d'origine.
-
-Chaque entité supplémentaire augmente à la fois la charge de travail et le risque d'audit.
-
-**Après**
-
-La facture est collée une seule fois.
-
-La cible d'allocation identifie le groupe d'actifs concerné.
-
-Le moteur distribue automatiquement la facture selon la base d'allocation sélectionnée, valide les mappages manquants, génère des écritures comptables détaillées et met immédiatement à jour les résumés Fonds et Géographie.
-
-Le classeur devient un processus analytique réutilisable plutôt qu'un autre tableur personnalisé.
-## Problèmes courants d'allocation de factures résolus par cet outil
-
-| Problème | Sans cet outil | Avec cet outil |
-|----------|-------------------|----------------|
-| Classeurs d'allocation spécifiques à chaque entité | Chaque entité juridique exige son propre calculateur, créant une logique dupliquée et une maintenance incohérente. | Un unique moteur d'allocation achemine automatiquement les factures vers les bons actifs via l'entité de facturation sélectionnée. |
-| Les règles d'allocation évoluent dans le temps | Les mises à jour de formules doivent être répétées sur de nombreuses feuilles, augmentant le risque de calculs incohérents. | La méthodologie d'allocation est contrôlée depuis une seule feuille Settings et appliquée de manière cohérente à chaque facture. |
-| Les portefeuilles d'actifs changent fréquemment | Les nouveaux actifs exigent une extension manuelle des formules et des mises à jour de résumés. Les références manquantes passent souvent inaperçues. | Les nouveaux actifs sont ajoutés à la table maîtresse des actifs, et les plages d'allocation s'étendent automatiquement. |
-| Le rapprochement des allocations est difficile | Les équipes finance comparent manuellement les totaux de factures aux montants distribués sur plusieurs feuilles. | Chaque ligne allouée reste traçable jusqu'à la facture d'origine tandis que les valeurs Net, TVA et Brut restent pleinement rapprochées. |
-| Les rapports de gestion exigent des tableaux croisés dynamiques manuels | Les résumés Fonds et géographiques doivent être reconstruits ou actualisés après chaque cycle de reporting. | Les vues de résumé se mettent à jour automatiquement à mesure que de nouvelles factures et actifs sont importés. |
-| Les cibles d'allocation incorrectes passent inaperçues | Les entités de facturation mal orthographiées ou inconnues produisent souvent des allocations incomplètes sans avertissements évidents. | Les cibles d'allocation non mappées sont immédiatement signalées afin que les erreurs soient corrigées avant la comptabilisation. |
+👉 **Prêt à standardiser votre flux d'allocation de clôture mensuelle ?**  
+Testez vos scénarios d'allocation dans le calculateur web gratuit ci-dessus. Une fois que vous voyez comment il rationalise vos données, **[téléchargez ici le modèle Excel réutilisable de distribution des coûts multi-entités](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)**. Définissez vos paramètres une fois, déposez vos données mensuelles et obtenez des allocations illimitées, hors ligne et sécurisées pour votre entreprise, pour toujours.
 
 ---
 
-## À qui cela s'adresse
+## La logique métier & la méthodologie : comment nous résolvons l'allocation des dépenses
 
-Ce classeur est conçu pour les organisations qui répartissent des coûts d'exploitation partagés entre plusieurs actifs, entités juridiques, véhicules d'investissement ou régions géographiques, tout en exigeant une piste d'audit transparente.
+Cette boîte à outils repose sur des principes fondamentaux de comptabilité de gestion. Ce n'est pas une simple collection de VLOOKUPs, mais une méthodologie structurée pour résoudre de vrais problèmes de facturation multi-entités :
 
-Les utilisateurs typiques incluent :
+1. **Découpler les données sources de la logique de calcul :** Le défaut fondamental de la plupart des tableurs financiers est de mélanger la saisie de données brutes avec les formules de calcul. Cet outil sépare les deux. Vous collez les factures brutes (le « Quoi ») et les listes d'actifs (le « Où ») dans des couches isolées, tandis que le moteur gère strictement la distribution (le « Comment ») selon vos règles.
+2. **Préparation au Pro-Rata & Activity-Based Costing (ABC) :** Que vous répartissiez des licences logicielles également par *Asset Count* ou que vous distribuiez le loyer d'un entrepôt par *Square Footage Capacity*, l'outil traduit les réalités opérationnelles physiques en ratios financiers précis, garantissant un partage équitable des coûts entre coentreprises ou SPVs.
+3. **Pistes d'audit immuables pour la conformité :** En administration de fonds et en finance d'entreprise, *la manière dont* un chiffre a été calculé est aussi importante que le chiffre lui-même. Ce cadre garantit que chaque fraction de coût distribuée conserve un lien direct et vérifiable avec la facture fournisseur d'origine, satisfaisant aux exigences des auditeurs et aux normes de contrôle interne.
 
-- Les équipes de finance d'entreprise gérant des dépenses d'exploitation partagées.
-- Les gestionnaires d'investissements en infrastructures et énergies renouvelables.
-- Les administrateurs de fonds immobiliers, d'infrastructures et de capital-investissement.
-- Les family offices gérant des structures d'exploitation multi-entités.
-- Les équipes comptables préparant les journaux d'allocation avant l'import ERP.
-- Les analystes financiers responsables de l'allocation récurrente des coûts et du reporting de gestion.
+## À propos du créateur
 
-Ce classeur n'est **pas** destiné à remplacer les systèmes ERP ou les plateformes comptables d'entreprise. Il standardise plutôt l'un des processus analytiques les plus sujets aux erreurs avant que les données n'entrent dans ces systèmes.
+Je conçois des outils légers d'aide à la décision, en Excel et dans le navigateur, pour des problèmes financiers opérationnels comportant trop de pièces mobiles pour être gérés de façon fiable par la seule mémoire.
 
-Aucune expertise en tableur n'est requise. Ouvrez la version navigateur ou le classeur Excel, importez vos données existantes et commencez immédiatement à allouer des factures.
+Plutôt que de créer des systèmes d'entreprise gonflés, je me concentre sur des cadres analytiques réutilisables qui répondent à une question pratique :
 
----
+**« Quelles informations doivent être visibles en un seul endroit pour prendre la prochaine décision financière en toute confiance ? »**
 
-## À propos
-
-Je conçois des outils légers d'aide à la décision, en Excel et dans le navigateur, pour des problèmes opérationnels comportant trop de pièces mobiles pour être gérés de façon fiable par la seule mémoire.
-
-Plutôt que de créer de grands systèmes d'entreprise, je me concentre sur des cadres analytiques réutilisables qui répondent à une question pratique :
-
-**"Quelles informations doivent être visibles en un seul endroit pour prendre la prochaine décision avec confiance ?"**
-
-La Dynamic Invoice Allocation & Multi-Entity Cost Distribution Excel Toolkit est un exemple de cette approche—transformer un processus d'allocation financière répétitif en un flux de travail analytique reproductible plutôt qu'en une autre collection de tableurs copiés.
+Ce Dynamic Invoice Allocation Toolkit est le reflet direct de cette philosophie : transformer une corvée comptable mensuelle stressante et répétitive en un flux de travail prévisible et reproductible.
 
 ---
 
@@ -307,9 +250,9 @@ La méthodologie d'allocation devrait refléter l'économie opérationnelle.
 
 Le classeur prend en charge :
 
-- Nombre d'actifs
-- Capacité
-- Capacité de propriété
+- Asset Count
+- Capacity
+- Ownership Capacity
 
 sans modifier les rapports en aval.
 
@@ -340,7 +283,7 @@ Les relations de données maîtresses manquantes deviennent des erreurs comptabl
 
 ### Approche correcte
 
-Les entités de facturation inconnues sont immédiatement signalées comme **Unmapped Target** avant la comptabilisation.
+Les entités de facturation inconnues sont immédiatement signalées comme **⚠ Unmapped Target** avant la comptabilisation.
 
 L'allocation ne se poursuit qu'après correction des données maîtresses.
 
@@ -361,18 +304,18 @@ Un gestionnaire d'investissements en énergies renouvelables reçoit une facture
 
 La facture est attribuée à la société d'exploitation responsable de quatre actifs solaires.
 
-La méthodologie d'allocation sélectionnée dans **Settings** est **Capacité de propriété**.
+La méthodologie d'allocation sélectionnée dans **Settings** est **Ownership Capacity**.
 
-La table maîtresse des actifs contient les capacités de propriété suivantes :
+La table maîtresse des actifs contient les valeurs de Ownership Capacity suivantes :
 
-| Actif | Capacité de propriété (MW) |
+| Actif | Ownership Capacity (MW) |
 |-------|-------------------------:|
 | Actif A | 60 |
 | Actif B | 30 |
 | Actif C | 20 |
 | Actif D | 10 |
 
-La capacité de propriété totale équivaut à **120 MW**.
+La Ownership Capacity totale équivaut à **120 MW**.
 
 Le moteur d'allocation calcule automatiquement des ratios d'allocation proportionnels de **50%**, **25%**, **16.67%** et **8.33%**.
 
@@ -423,9 +366,9 @@ Définit la méthodologie d'allocation appliquée à l'ensemble du classeur.
 
 Options prises en charge :
 
-- Nombre d'actifs
-- Capacité
-- Capacité de propriété
+- Asset Count
+- Capacity
+- Ownership Capacity
 
 Le moteur d'allocation référence ce paramètre dynamiquement, permettant de changer de méthodologie d'allocation sans modifier aucune formule.
 
@@ -434,13 +377,13 @@ Le moteur d'allocation référence ce paramètre dynamiquement, permettant de ch
 ---
 
 <details>
-<summary><strong>Import d'actifs</strong></summary>
+<summary><strong>Asset Import</strong></summary>
 
-### Capacité de propriété
+### Ownership Capacity
 
 **Objet**
 
-Calcule la capacité de propriété effective utilisée par l'allocation proportionnelle.
+Calcule la Ownership Capacity effective utilisée par l'allocation proportionnelle.
 
 **Formule**
 
@@ -450,8 +393,8 @@ Calcule la capacité de propriété effective utilisée par l'allocation proport
 
 Où :
 
-- G = % de propriété
-- H = Capacité (MW)
+- G = Ownership %
+- H = Capacity (MW)
 
 Le calcul s'étend automatiquement à mesure que des actifs supplémentaires sont importés.
 
@@ -460,7 +403,7 @@ Le calcul s'étend automatiquement à mesure que des actifs supplémentaires son
 ---
 
 <details>
-<summary><strong>Entrée de factures</strong></summary>
+<summary><strong>Invoice Input</strong></summary>
 
 ### Net imposable
 
@@ -525,7 +468,7 @@ Les principales fonctions Excel incluent :
 
 Les ratios d'allocation sont générés selon la méthodologie configurée :
 
-### Nombre d'actifs
+### Asset Count
 
 ```text
 Allocation Ratio = 1 ÷ Number of Matching Assets
@@ -533,7 +476,7 @@ Allocation Ratio = 1 ÷ Number of Matching Assets
 
 ---
 
-### Capacité
+### Capacity
 
 ```text
 Allocation Ratio
@@ -549,7 +492,7 @@ Total Capacity
 
 ---
 
-### Capacité de propriété
+### Ownership Capacity
 
 ```text
 Allocation Ratio
@@ -629,11 +572,11 @@ sans tableaux croisés dynamiques.
 | Allocation Target | Doit correspondre à une Company to Invoice existante | Enregistrement d'avertissement généré |
 | VAT Override | Vide ou pourcentage valide | Retombe sur la TVA par défaut |
 | Company to Invoice | Doit exister dans Asset Import | Allocation bloquée |
-| Ownership % | Entre 0 % et 100 % | Valeurs invalides exclues |
+| Ownership % | Entre 0% et 100% | Valeurs invalides exclues |
 | Capacity | Doit être positive | Allocation par capacité indisponible |
 | Ownership Capacity | Généré par formule uniquement | Colonne protégée |
-| Default VAT Rate | Entre 0 % et 100 % | Avertissement de configuration |
-| Allocation Basis | Asset Count / Capacity / Ownership Capacity | Nombre d'actifs par défaut |
+| Default VAT Rate | Entre 0% et 100% | Avertissement de configuration |
+| Allocation Basis | Asset Count / Capacity / Ownership Capacity | Valeur par défaut : Asset Count |
 
 ### Conditions de garde automatiques
 
@@ -642,7 +585,7 @@ sans tableaux croisés dynamiques.
 - Les entités de facturation inconnues génèrent un enregistrement **⚠ Unmapped Target**.
 - Les tableaux dynamiques s'étendent automatiquement sans formules copiées.
 - Les rapports de résumé s'actualisent automatiquement après recalcul.
-- Tous les totaux Net, TVA et Brut alloués se rapprochent de leur facture d'origine.
+- Tous les totaux Net, VAT et Brut alloués se rapprochent de leur facture d'origine.
 
 </details>
 
