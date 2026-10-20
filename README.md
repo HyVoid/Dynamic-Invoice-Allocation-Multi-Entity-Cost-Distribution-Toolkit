@@ -11,7 +11,7 @@
 Looking for a reliable **invoice allocation Excel template**? This automated **multi-entity cost distribution system** is designed to help corporate finance teams, fund administrators, and controllers seamlessly allocate supplier invoices across assets, funds, SPVs, companies, and geographies. Replace manual overhead allocation spreadsheets with a unified, rules-based engine that streamlines your month-end accounting workflows and generates audit-ready journal prep data.
 
 > 🌐 **Live Web Application (Test the Allocation Engine)**  
-> [Launch Free Web-Based Invoice Allocation Calculator App (No Installation)](https://hyvoid.github.io/Dynamic-Invoice-Allocation-Multi-Entity-Cost-Distribution-Toolkit/)
+> [Launch Free Web-Based Invoice Allocation Calculator App (No Installation)](https://hyvoid.github.io/multi-entity-expense-allocation/)
 >
 > 📥 **Downloadable Excel File (Keep Your Financial Data Secure)**  
 > [Download the Reusable Multi-Entity Cost Distribution Excel Template (.xlsx)](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)
