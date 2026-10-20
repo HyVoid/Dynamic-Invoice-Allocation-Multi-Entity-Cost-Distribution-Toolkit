@@ -1,172 +1,115 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
-# Dynamische factuurallocatie & kostenverdeling over meerdere entiteiten — Excel-toolkit
+
+# 📊 Dynamische Excel-sjabloon voor factuurtoewijzing & systeem voor kostenverdeling over meerdere entiteiten
+<img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/3a80f546-ec3c-47a2-a89f-c0ecc823e961" />
+
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
-![Tool](https://img.shields.io/badge/Tool-Decision%20Support-orange)
+![Tool](https://img.shields.io/badge/Tool-Financial%20Decision%20Support-orange)
 
-**Verdeel leveranciersfacturen automatisch over activa, fondsen, bedrijven en geografieën met configureerbare toewijningsregels—beschikbaar als gratis browserversie en als Excel-werkmap, zonder installatie.**
+Zoekt u een betrouwbare **Excel-sjabloon voor factuurtoewijzing**? Dit geautomatiseerde **systeem voor kostenverdeling over meerdere entiteiten** is ontworpen om financeteams van bedrijven, fondsadministrateurs en controllers te helpen leveranciersfacturen naadloos toe te wijzen aan activa, fondsen, SPVs, bedrijven en geografieën. Vervang handmatige overheadtoewijzingsspreadsheets door een uniforme, op regels gebaseerde engine die uw maandafsluitingsboekhoudworkflows stroomlijnt en auditklare journaalvoorbereidingsdata genereert.
 
-**Geen registratie. Geen installatie. Gratis in je browser.**
-
-Probeer de browserversie gratis. Als je de Excel-versie nodig hebt, kun je die kopen met een 30-dagen geld-terug-garantie zonder vragen.
+> 🌐 **Live webapplicatie (Test de toewijningsengine)**  
+> [Start de gratis webgebaseerde factuurtoewijzingscalculator-app (geen installatie nodig)](https://hyvoid.github.io/multi-entity-expense-allocation/)
 >
-> 🌐 **In de browser openen (gratis)** → [hier](https://hyvoid.github.io/Dynamic-Invoice-Allocation-Multi-Entity-Cost-Distribution-Toolkit/)
->
-> 📥 **Excel downloaden** → [aankooplink](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)
-> 
+> 📥 **Downloadbaar Excel-bestand (Houd uw financiële data veilig)**  
+> [Download de herbruikbare Excel-sjabloon voor kostenverdeling over meerdere entiteiten (.xlsx)](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)
 
 ---
 
-## Wat het je helpt bijhouden
+## Financiële doelgroepen & kostenverdelingsscenario's: wie heeft dit spreadsheet nodig?
 
-- Leveranciersfacturen die consistent worden toegedeeld over meerdere rechtspersonen en bedrijfsactiva.
-- Kostenverdeling per Fonds, Geografie, SPV en facturerend bedrijf zonder herbouw van rapporten.
-- Toewijningsresultaten onder verschillende methodologieën zoals Activa aantal, Capaciteit of Eigendomscapaciteit.
-- Ontbrekende of niet-gemapte toewijningsdoelen voordat boekingen worden geëxporteerd.
-- Volledige toewijnings-audittrails van de originele factuur tot elke toegedeelde transactie.
-- Kantoorklare toewijningssamenvattingen die gesynchroniseerd blijven met geïmporteerde brondata.
+Deze sectie koppelt specifieke financiële functies aan de meest voorkomende scenario's voor maandafsluitingsrapportage, zodat u precies het **alternatief voor onkostenverdelingssoftware** vindt waarnaar u zoekt.
 
----
+### 1. Financeteams van bedrijven & group controllers
+- **Primaire zoekintentie:** *Excel-sjabloon voor toewijzing van gedeelde onkosten, spreadsheet voor intercompany-facturering*
+- **Operationeel scenario:** Beheer van gecentraliseerde bedrijfskosten die proportioneel verdeeld moeten worden over meerdere dochtermaatschappijen, kostenplaatsen en vestigingen zonder elke maand pivottabellen opnieuw op te bouwen.
 
-## Snelstartworkflow
+### 2. Private equity & fondsadministrateurs
+- **Primaire zoekintentie:** *calculator voor fondsonkostenverdeling, spreadsheet voor SPV-factuurverdeling*
+- **Operationeel scenario:** Routering van complexe juridische, audit- en beheerskosten over verschillende beleggingsvehikels (SPVs) en fondsen op basis van dynamische Ownership Capacity- of Asset Count-methodieken.
 
-### 1. Toewijningsregels eenmalig configureren
+### 3. Asset managers voor vastgoed & infrastructuur
+- **Primaire zoekintentie:** *sjabloon voor kostenverdeling van vastgoedportefeuilles, multi-activa boekhoudworkflow*
+- **Operationeel scenario:** Nauwkeurige toewijzing van gedeelde onderhouds- en nutsfacturen op portefeuilleniveau aan afzonderlijke bedrijfsactiva, met behoud van een transparante audittrail voor investeerders.
 
-Open het blad **Settings** en definieer de weinige parameters die de werkmap besturen.
-
-Typische voorbeelden:
-
-- Standaard btw-tarief
-- Valutasymbool
-- Toewijningsbasis
-    - Activa aantal
-    - Capaciteit
-    - Eigendomscapaciteit
-
-Deze instellingen worden de single source of truth voor elke berekening.
+### 4. Boekhouders van family offices
+- **Primaire zoekintentie:** *Excel voor onkostentracking over meerdere entiteiten, kostenverdeling bij vermogensbeheer*
+- **Operationeel scenario:** Standaardiseren van de workflow om bedrijfskosten te verdelen over meerdere familiefondsen en rechtspersonen voordat de definitieve journaalposten in het centrale ERP-systeem worden geïmporteerd.
 
 ---
 
-### 2. Bestaande operationele data importeren
+## Pijnpunten in financiële operaties & geautomatiseerde toewijzingsoplossingen
 
-Plak de nieuwste activa-stammlijst in **Asset Import**.
+Deze toolkit vormt de brug tussen ruwe leveranciersfacturen en uw algemene grootboek (GL). Het vertaalt veelvoorkomende knelpunten bij kostendeling direct naar geautomatiseerde spreadsheetoplossingen.
 
-Plak leveranciersfacturen in **Invoice Input**.
-
-Geen herstructurering nodig.
-
-Data kan direct komen uit:
-
-- exports van boekhoudsoftware
-- ERP-rapporten
-- CSV-bestanden
-- gekopieerde spreadsheettabellen
-
-De werkmap breidt automatisch uit naarmate rijen worden toegevoegd.
+| Knelpunt bij kostenverdeling (pijnpunt) | Ingebouwde geautomatiseerde Excel-oplossing | Financiële impact & KPI-doel |
+| :--- | :--- | :--- |
+| **Inconsistente overheadverdeling** | **Gecentraliseerde toewijningsregelsengine:** Past gestandaardiseerde methodieken (Asset Count, Capacity, Ownership %) automatisch toe op alle binnenkomende facturen. | Elimineert **intercompany-factureringsfouten** en waarborgt naleving van onkostenbeleid. |
+| **Verloren audittrails in spreadsheets** | **End-to-end factuurherkomst:** Herleidt elk toegedeeld bedrag terug naar de oorspronkelijke leveranciersfactuur en bewaart de oorspronkelijke Net-, VAT- en Gross-waarden. | Versnelt het **maandafsluitingsproces** en vereenvoudigt reviews door externe accountants. |
+| **Kapotte pivottabellen & handmatige updates** | **Dynamische fonds- & geografie-overzichten:** Genereert automatisch managementklare kostenverdelingsrapporten zonder handmatige datavernieuwingen. | Verkort de tijd besteed aan **financiële rapportage over meerdere entiteiten** en datamanipulatie. |
+| **Verweesde kosten & niet-gemapte entiteiten** | **Datakwaliteits- & mappingvalidatie:** Markeert ontbrekende toewijningsdoelen of onbekende facturerende entiteiten onmiddellijk voordat boekingen worden geëxporteerd. | Voorkomt **niet-vastgelegde bedrijfskosten** en waarborgt 100% kostenherstel over SPVs heen. |
 
 ---
 
-### 3. Toewijningsresultaten direct beoordelen
+## Kostenverdeling vergeleken: handmatige spreadsheets vs. geautomatiseerde Excel-engine
 
-Schakel over naar **Allocation Detail** of **Allocation Summary**.
+Vermijd de meest voorkomende valkuilen in multi-entity-boekhouding door uw maandafsluitingsworkflow te moderniseren met dit gestructureerde sjabloon.
 
-Elke factuur wordt automatisch verdeeld volgens de geselecteerde toewijningsmethodologie.
-
-Er hoeven geen formules te worden gekopieerd.
-
-Er hoeven geen pivottabellen te worden vernieuwd.
-
-Er hoeven geen handmatige toewijningswerkbladen te worden onderhouden.
+| Financiële rapportageworkflow | Traditionele handmatige spreadsheettracking | Geautomatiseerde kostenverdelingstoolkit (deze repository) |
+| :--- | :--- | :--- |
+| **Beheren van meerdere rechtspersonen** | **Gedupliceerde logica:** Elke rechtspersoon of elk SPV vereist zijn eigen rekenmachine, wat redundante werkbladen en een hoog risico op formulefouten creëert. | **Één toewijningsengine:** Één gecentraliseerd raamwerk routeert leveranciersfacturen automatisch naar de juiste activa op basis van de geselecteerde facturerende entiteit. |
+| **Bijwerken van portfolio-activastructuren** | **Handmatige formule-uitbreiding:** Nieuwe activa vereisen dat financiële medewerkers handmatig formules doorvoeren, bereiken uitbreiden en percentagetotalen controleren. | **Dynamische stamlijst:** Nieuwe activa worden simpelweg toegevoegd aan de stamtabel; toewijningsbereiken en proportionele verdelingen worden automatisch herberekend. |
+| **Afstemming van journaalposten** | **Blind zoeken naar fouten:** Financeteams vergelijken handmatig de totaal verdeelde bedragen over tientallen tabbladen om een afrondingsfout van $0.01 te vinden. | **Automatisch afgestemde grootboeken:** Elke toegedeelde transactie blijft mathematisch vergrendeld aan de bronfactuur, wat afstemmingen zonder verschillen garandeert. |
 
 ---
 
-### 4. Vernieuwen wanneer nieuwe facturen binnenkomen
+## Hoe u kostenverdeling over meerdere entiteiten in 4 stappen automatiseert (snelstart-tutorial)
 
-Vervang geïmporteerde activadata wanneer portefeuillestructuren wijzigen.
+Stop met het handmatig berekenen van pro-rata-verdelingen. Volg deze operationele volgorde om een betrouwbare, auditklare onkostentoewijzingscyclus op te zetten:
 
-Voeg nieuwe facturen toe zodra ze binnenkomen.
+### Stap 1: Configureer uw toewijningsregels (systeeminstelling)
+Open het blad **Settings** om de globale parameters te definiëren die uw financiële verdeling aansturen:
+- Stel uw standaard btw-tarief en uw regionale valutasymbool in.
+- Kies uw primaire *Allocation Basis* (bijv. Asset Count, Physical Capacity of Ownership Capacity).
+- *Feature Check:* Deze parameters worden de single source of truth en elimineren formule-inconsistenties over alle bladen heen.
 
-De werkmap herberekent automatisch elke toewijning en managementsamenvatting zonder rapporten te herbouwen.
+### Stap 2: ERP-/boekhoudbrondata importeren (gegevensinvoer)
+Plak uw nieuwste portefeuilledata in **Asset Import** en plak leveranciersfacturen in **Invoice Input**:
+- Data kan rechtstreeks worden geplakt vanuit exports van boekhoudsoftware, ERP-rapporten of eenvoudige CSV-bestanden—geen herstructurering nodig.
+- De werkmap breidt automatisch uit om nieuwe rijen op te nemen.
 
-**Stel een paar sleutelparameters in. Gooi bestaande data erin. Krijg de analyse. Vernieuw wanneer nodig.**
+### Stap 3: Controleer samenvattingen van factuurverdeling (afstemming)
+Schakel over naar de dashboards **Allocation Detail** of **Allocation Summary**:
+- Elke factuur wordt automatisch verdeeld volgens uw vooraf gedefinieerde methodiek.
+- Controleer de *Data Health Checks* om te verzekeren dat geen niet-gemapte entiteiten of ontbrekende factureringsregels uw kostenroutering blokkeren.
 
----
+### Stap 4: GL-journaalposten exporteren & uw sjabloon beveiligen
+Genereer uw definitieve, financeklare toewijzingssamenvatting. U kunt deze berekende regels nu eenvoudig exporteren naar uw centrale boekhoudplatform.
 
-## Waarom ik dit heb gebouwd
-
-Veel financeteams hebben al factuurtoewijningswerkmappen.
-
-Het probleem is zelden de berekening zelf.
-
-Het echte probleem: elk nieuw facturerend bedrijf, elk nieuw beleggingsvehikel of elke nieuwe bedrijfsentiteit introduceert meestal nog een werkblad, nog een gekopieerd formuleblok en nog een kans op toewijningsfouten.
-
-Na verloop van tijd worden deze werkmappen verzamelingen van bijna identieke rekenmachines die moeilijk te controleren zijn en bijna onmogelijk consistent te onderhouden.
-
-Ik heb deze toolkit gebouwd om gedupliceerde rekenbladen te vervangen door een herbruikbaar toewijningsraamwerk.
-
-In plaats van aparte rekenmachines voor elke entiteit, stromen facturen door één toewijningsengine, aangedreven door activa-stamdata en configureerbare toewijningsregels.
-
-Bijvoorbeeld:
-
-**Voor**
-
-Een onderhoudsfactuur voor een portefeuillebedrijf komt binnen.
-
-Financiële medewerkers beslissen handmatig welke rekenmachine ze openen, kopiëren formules, passen bereiken aan, controleren percentages, vernieuwen samenvattingen en controleren of elk toegedeeld bedrag nog steeds overeenkomt met de originele factuur.
-
-Elke extra entiteit verhoogt zowel werklast als controlerisico.
-
-**Na**
-
-De factuur wordt één keer geplakt.
-
-Het toewijningsdoel identificeert de relevante activagroep.
-
-De engine verdeelt de factuur automatisch volgens de geselecteerde toewijningsbasis, valideert ontbrekende mappings, genereert gedetailleerde boekingsrecords en werkt direct Fonds- en Geografie-samenvattingen bij.
-
-De werkmap wordt een herbruikbaar analytisch proces in plaats van nog een aangepaste spreadsheet.
-## Veelvoorkomende factuurtoewijningsproblemen die dit oplost
-
-| Probleem | Zonder deze tool | Met deze tool |
-|----------|-------------------|----------------|
-| Entiteit-specifieke toewijningswerkmappen | Elke rechtspersoon vereist zijn eigen rekenmachine, wat gedupliceerde logica en inconsistente onderhoud creëert. | Één toewijningsengine routeert facturen automatisch naar de juiste activa via de geselecteerde facturerende entiteit. |
-| Toewijningsregels veranderen in de tijd | Formule-updates moeten over vele werkbladen worden herhaald, wat het risico op inconsistente berekeningen verhoogt. | De toewijningsmethodologie wordt vanaf één Settings-blad aangestuurd en consistent op elke factuur toegepast. |
-| Activa-portefeuilles veranderen frequent | Nieuwe activa vereisen handmatige formule-uitbreiding en samenvattingsupdates. Ontbrekende referenties blijven vaak onopgemerkt. | Nieuwe activa worden aan de activa-stamtabel toegevoegd, en toewijningsbereiken breiden automatisch uit. |
-| Toewijningsafstemming is moeilijk | Financeteams vergelijken handmatig factuurtotalen met verdeelde bedragen over meerdere werkbladen. | Elke toegedeelde regel blijft traceerbaar naar de originele factuur, terwijl Net-, btw- en Bruto-waarden volledig afgestemd blijven. |
-| Managementrapportage vereist handmatige pivottabellen | Fonds- en geografische samenvattingen moeten na elke rapportagecyclus worden herbouwd of vernieuwd. | Samenvattingsweergaven werken automatisch bij naarmate nieuwe facturen en activa worden geïmporteerd. |
-| Onjuiste toewijningsdoelen blijven onopgemerkt | Verkeerd gespelde of onbekende facturerende entiteiten produceren vaak onvolledige toewijningen zonder duidelijke waarschuwingen. | Niet-gemapte toewijningsdoelen worden direct gemarkeerd, zodat fouten vóór boeking kunnen worden gecorrigeerd. |
+👉 **Klaar om uw maandafsluitingstoewijningsworkflow te standaardiseren?**  
+Test uw toewijzingsscenario's in de gratis webcalculator hierboven. Zodra u ziet hoe het uw data stroomlijnt, **[download hier de herbruikbare Excel-sjabloon voor kostenverdeling over meerdere entiteiten](https://www.theseusworkshop.com/l/vooco?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=invoice-allocation-calculator)**. Stel uw parameters één keer in, plak uw maandelijkse data in en krijg voor altijd onbeperkt offline, veilige toewijzingen voor uw bedrijf.
 
 ---
 
-## Voor wie dit is
+## De bedrijfslogica & methodologie: hoe we onkostentoewijzing oplossen
 
-Deze werkmap is ontworpen voor organisaties die gedeelde operationele kosten verdelen over meerdere activa, rechtspersonen, beleggingsvoertuigen of geografische regio's, terwijl ze een transparante audittrail vereisen.
+Deze toolkit is gebouwd op kernprincipes van management accounting. Het is niet zomaar een verzameling VLOOKUPs, maar een gestructureerde methodiek om echte multi-entity factureringsproblemen op te lossen:
 
-Typische gebruikers zijn:
+1. **Brondata en berekeningslogica ontkoppelen:** De fundamentele fout in de meeste financiële spreadsheets is het mengen van ruwe data-invoer met berekeningsformules. Deze tool scheidt de twee. U plakt ruwe facturen (het "Wat") en activalijsten (het "Waar") in geïsoleerde lagen, terwijl de engine strikt de verdeling (het "Hoe") verzorgt op basis van uw regels.
+2. **Pro-rata & Activity-Based Costing (ABC)-gereedheid:** Of u nu softwarelicenties gelijkmatig verdeelt op basis van *Asset Count* of magazijnhuur verdeelt op basis van *Square Footage Capacity*, de tool vertaalt fysieke operationele realiteiten naar precieze financiële verhoudingen, wat eerlijke kostendeling over joint ventures of SPVs waarborgt.
+3. **Onveranderlijke audittrails voor compliance:** In fondsadministratie en corporate finance is *hoe* een getal berekend is net zo belangrijk als het getal zelf. Dit raamwerk waarborgt dat elk verdeeld kostenfragment een directe, verifieerbare koppeling behoudt naar de oorspronkelijke leveranciersfactuur, wat voldoet aan eisen van accountants en interne controlestandaarden.
 
-- Financiële teams in bedrijven die gedeelde operationele kosten beheren.
-- Beheerders van investeringen in infrastructuur en hernieuwbare energie.
-- Beheerders van vastgoed-, infrastructuur- en private-equityfondsen.
-- Family offices die structuren met meerdere entiteiten beheren.
-- Boekhoudteams die toewijningsjournals voorbereiden vóór ERP-import.
-- Financiële analisten verantwoordelijk voor terugkerende kostentoewijning en managementrapportage.
+## Over de maker
 
-Deze werkmap is **niet** bedoeld om ERP-systemen of ondernemingsbrede boekhoudplatforms te vervangen. Het standaardiseert in plaats daarvan een van de meest foutgevoelige analytische processen voordat data deze systemen binnenkomt.
+Ik bouw lichtgewicht Excel- en browsergebaseerde beslissingsondersteunende tools voor operationele financiële problemen met te veel bewegende delen om betrouwbaar uit het hoofd te beheren.
 
-Geen spreadsheet-expertise vereist. Open de browserversie of Excel-werkmap, importeer bestaande data en begin direct met het toewijzen van facturen.
+In plaats van logge ondernemingssystemen te bouwen, focus ik op herbruikbare analytische raamwerken die één praktische vraag beantwoorden:
 
----
+**"Welke informatie moet op één plek zichtbaar zijn om de volgende financiële beslissing met vertrouwen te nemen?"**
 
-## Over
-
-Ik bouw lichtgewicht Excel- en browsergebaseerde beslissingsondersteunende tools voor operationele problemen met te veel bewegende delen om betrouwbaar uit het hoofd te managen.
-
-In plaats van grote ondernemingssystemen te bouw, focus ik op herbruikbare analytische raamwerken die één praktische vraag beantwoorden:
-
-**"Welke informatie moet op één plek zichtbaar zijn om de volgende beslissing met vertrouwen te nemen?"**
-
-De Dynamic Invoice Allocation & Multi-Entity Cost Distribution Excel Toolkit is één voorbeeld van deze aanpak—een repetitief financieel toewijningsproces omzetten in een herhaalbare analytische workflow in plaats van nog een collectie gekopieerde spreadsheets.
+Deze Dynamic Invoice Allocation Toolkit is een directe weerspiegeling van die filosofie—het omzetten van een stressieve, repetitieve maandafsluitingsklus in een voorspelbare, herhaalbare workflow.
 
 ---
 
@@ -206,7 +149,7 @@ De werkmap volgt een strikte scheiding tussen invoer, berekeningslogica, validat
 | Laag | Werkblad | Primaire verantwoordelijkheid |
 |--------|-----------|------------------------|
 | Begeleiding | Instructions | Bedrijfsprocedures en probleemoplossing |
-| Configuratie | Settings | Btw, valuta, toewijningsmethodologie |
+| Configuratie | Settings | Btw, valuta, toewijningsmethodiek |
 | Stamdata | Asset Import | Single source of truth voor activa-metadata |
 | Transactie-invoer | Invoice Input | Invoer van leveranciersfacturen |
 | Berekening | Allocation Engine | Dynamische factuurverdelingsengine |
@@ -225,7 +168,7 @@ Invoice Input -----------------------> Allocation Summary
 
 Validatie vindt plaats vóór rapportage.
 
-Facturen kunnen alleen succesvol worden toegedeeld als de facturerende entiteit in de activa-stamtabel bestaat.
+Facturen kunnen alleen succesvol worden toegedeeld als de facturerende entiteit bestaat in de activa-stamtabel.
 
 ---
 
@@ -235,23 +178,23 @@ Facturen kunnen alleen succesvol worden toegedeeld als de facturerende entiteit 
 
 **Beslissing**
 
-Een nieuwe bedrijfsvennootschap wordt toegevoegd.
+Er wordt een nieuw operationeel bedrijf toegevoegd.
 
-Een kopie van een bestaand toewijningswerkblad wordt gemaakt.
+Er wordt een kopie van een bestaand toewijningswerkblad gemaakt.
 
 | Traditionele aanpak | Toewijningsraamwerk |
 |----------------------|----------------------|
-| Gedupliceerd werkblad | Eén toewijningsengine hergebruiken |
+| Gedupliceerd werkblad | Één toewijningsengine hergebruiken |
 | Gedupliceerde formules | Dynamische arrays breiden automatisch uit |
-| Meerdere logiekekopieën onderhouden | Eén berekeningsmodel onderhouden |
+| Meerdere logica-kopieën onderhouden | Één rekenmodel onderhouden |
 
-De gekopieerde werkmap produceert in eerste instantie de juiste cijfers.
+De gekopieerde werkmap produceert aanvankelijk de juiste cijfers.
 
 Enkele maanden later veranderen de toewijningsregels.
 
 Alleen sommige werkbladen ontvangen de bijgewerkte formules.
 
-De organisatie draait nu meerdere versies van dezelfde toewijningsmethodologie.
+De organisatie draait nu meerdere versies van dezelfde toewijningsmethodiek.
 
 ### Waarom de redenering faalt
 
@@ -259,7 +202,7 @@ Het analytische model is ingebed in gedupliceerde werkbladen in plaats van gecen
 
 ### Juiste aanpak
 
-Eén toewijningsengine onderhouden.
+Onderhoud één toewijningsengine.
 
 Alleen activa-stamdata en toewijningsparameters veranderen.
 
@@ -284,12 +227,12 @@ Eén formule genereert de volledige toewijningstabel.
 
 **Beslissing**
 
-Elk actief ontvangt een gelijk percentage van de operationele kosten.
+Elk actief ontvangt een gelijk percentage van de bedrijfskosten.
 
 | Gelijke verdeling | Capaciteitsgebaseerde toewijning |
 |--------------|--------------------------|
 | 25% | Capaciteitsaandeel |
-| Negeert activa-omvang | Weerspiegelt operationele blootstelling |
+| Negeert de omvang van het actief | Weerspiegelt operationele blootstelling |
 
 Voorbeeld:
 
@@ -303,20 +246,20 @@ Gelijke toewijning onderschat het grootste operationele actief terwijl kleinere 
 
 ### Juiste aanpak
 
-De toewijningsmethodologie moet de operationele economie weerspiegelen.
+De toewijningsmethodiek moet de operationele economie weerspiegelen.
 
 De werkmap ondersteunt:
 
-- Activa aantal
-- Capaciteit
-- Eigendomscapaciteit
+- Asset Count
+- Capacity
+- Ownership Capacity
 
 zonder downstream-rapporten te wijzigen.
 
 <details>
 <summary>Formuleprincipes</summary>
 
-Toewijningsverhoudingen worden dynamisch geselecteerd via een SWITCH-statement die verwijst naar het Settings-blad.
+Toewijningsverhoudingen worden dynamisch geselecteerd via een SWITCH-instructie die verwijst naar het blad Settings.
 
 </details>
 
@@ -330,7 +273,7 @@ Facturen worden direct na import toegedeeld.
 
 De facturerende entiteit bevat een spellinginconsistentie.
 
-In plaats van het proces te stoppen, produceren vele spreadsheets gewoon lege lookups.
+In plaats van het proces te stoppen, produceren veel spreadsheets gewoon lege lookups.
 
 Managementrapporten lijken compleet terwijl een deel van de factuur niet-toegedeeld blijft.
 
@@ -340,9 +283,9 @@ Ontbrekende stamdata-relaties worden verborgen boekhoudfouten.
 
 ### Juiste aanpak
 
-Onbekende facturerende entiteiten worden direct gemarkeerd als **Unmapped Target** vóór financiële boeking.
+Onbekende facturerende entiteiten worden vóór financiële boeking onmiddellijk gemarkeerd als **⚠ Unmapped Target**.
 
-Toewijning gaat alleen verder nadat de stamdata is gecorrigeerd.
+Toewijning gaat pas verder nadat de stamdata is gecorrigeerd.
 
 <details>
 <summary>Formuleprincipes</summary>
@@ -357,37 +300,37 @@ Als er geen overeenkomende activa bestaan, genereert de engine een expliciet waa
 
 ## Voorbeeldscenario
 
-Een beheerder van investeringen in hernieuwbare energie ontvangt een leveranciersfactuur voor jaarlijks onderhoud ter waarde van **£240,000** exclusief btw.
+Een beheerder van investeringen in hernieuwbare energie ontvangt een leveranciersfactuur voor jaarlijks onderhoud met een totaal van **£240,000** exclusief btw.
 
-De factuur wordt toegewezen aan de bedrijfsvennootschap die verantwoordelijk is voor vier zonne-activa.
+De factuur wordt toegewezen aan het operationele bedrijf dat verantwoordelijk is voor vier zonne-activa.
 
-De in **Settings** geselecteerde toewijningsmethodologie is **Eigendomscapaciteit**.
+De in **Settings** geselecteerde toewijningsmethodiek is **Ownership Capacity**.
 
-De activa-stamtabel bevat de volgende eigendomscapaciteiten:
+De activa-stamtabel bevat de volgende Ownership Capacity-waarden:
 
-| Activa | Eigendomscapaciteit (MW) |
+| Actief | Ownership Capacity (MW) |
 |-------|-------------------------:|
-| Activa A | 60 |
-| Activa B | 30 |
-| Activa C | 20 |
-| Activa D | 10 |
+| Actief A | 60 |
+| Actief B | 30 |
+| Actief C | 20 |
+| Actief D | 10 |
 
-De totale eigendomscapaciteit bedraagt **120 MW**.
+De totale Ownership Capacity bedraagt **120 MW**.
 
 De toewijningsengine berekent automatisch proportionele toewijningsverhoudingen van **50%**, **25%**, **16.67%** en **8.33%**.
 
-In plaats van £60,000 gelijkelijk over elk actief te verdelen, verdeelt de werkmap de kosten volgens werkelijke economische eigendom:
+In plaats van £60,000 gelijkelijk toe te wijzen aan elk actief, verdeelt de werkmap de kosten volgens werkelijke economische eigendom:
 
-| Activa | Toegedeeld netto |
+| Actief | Toegedeeld netto |
 |-------|--------------:|
-| Activa A | £120,000 |
-| Activa B | £60,000 |
-| Activa C | £40,000 |
-| Activa D | £20,000 |
+| Actief A | £120,000 |
+| Actief B | £60,000 |
+| Actief C | £40,000 |
+| Actief D | £20,000 |
 
-Btw wordt automatisch berekend met ofwel de factuuurspecifieke overschrijving of de globale btw-instelling.
+Btw wordt automatisch berekend, hetzij via de factuurspecifieke override, hetzij via de globale btw-instelling.
 
-De resulterende toewijningsabel werkt direct Fonds- en Geografie-samenvattingen bij met volledige traceerbaarheid naar de originele leveranciersfactuur.
+De resulterende toewijningstabel werkt direct de fonds- en geografie-overzichten bij met behoud van volledige traceerbaarheid naar de oorspronkelijke leveranciersfactuur.
 
 Deze aanpak verbetert kostenattributie, vermindert handmatige afstemming en produceert toewijningsrecords die geschikt zijn voor boekhoudkundige review en ERP-import.
 
@@ -400,7 +343,7 @@ Deze aanpak verbetert kostenattributie, vermindert handmatige afstemming en prod
 
 **Doel**
 
-Levert het standaard btw-tarief wanneer een factuur geen factuuurspecifieke overschrijving specificeert.
+Levert het standaard btw-tarief wanneer een factuur geen factuurspecifieke override opgeeft.
 
 **Waarnaar verwezen wordt**
 
@@ -419,28 +362,28 @@ IF(VAT Override="", Default VAT Rate, VAT Override)
 
 **Doel**
 
-Definieert de toewijningsmethodologie die over de hele werkmap wordt toegepast.
+Definieert de toewijningsmethodiek die in de hele werkmap wordt toegepast.
 
 Ondersteunde opties:
 
-- Activa aantal
-- Capaciteit
-- Eigendomscapaciteit
+- Asset Count
+- Capacity
+- Ownership Capacity
 
-De toewijningsengine verwijst dynamisch naar deze parameter, waardoor de toewijningsmethodologie kan wijzigen zonder formules aan te passen.
+De toewijningsengine verwijst dynamisch naar deze parameter, waardoor de toewijningsmethodiek kan veranderen zonder formules aan te passen.
 
 </details>
 
 ---
 
 <details>
-<summary><strong>Activa-import</strong></summary>
+<summary><strong>Asset Import</strong></summary>
 
-### Eigendomscapaciteit
+### Ownership Capacity
 
 **Doel**
 
-Berekent de effectieve eigendomscapaciteit die door proportionele toewijning wordt gebruikt.
+Berekent de effectieve Ownership Capacity die door proportionele toewijning wordt gebruikt.
 
 **Formule**
 
@@ -450,8 +393,8 @@ Berekent de effectieve eigendomscapaciteit die door proportionele toewijning wor
 
 Waarbij:
 
-- G = Eigendom %
-- H = Capaciteit (MW)
+- G = Ownership %
+- H = Capacity (MW)
 
 De berekening breidt automatisch uit naarmate aanvullende activa worden geïmporteerd.
 
@@ -460,7 +403,7 @@ De berekening breidt automatisch uit naarmate aanvullende activa worden geïmpor
 ---
 
 <details>
-<summary><strong>Factuurinvoer</strong></summary>
+<summary><strong>Invoice Input</strong></summary>
 
 ### Belastbaar netto
 
@@ -487,7 +430,7 @@ H2:H100000
 )
 ```
 
-Gebruikt het factuuurspecifieke btw-tarief wanneer dat beschikbaar is.
+Gebruikt het factuurspecifieke btw-tarief wanneer dat beschikbaar is.
 
 Anders wordt de globale btw-parameter toegepast.
 
@@ -510,22 +453,22 @@ Produceert het boekhoudklare brute factuurbedrag.
 
 De toewijningsengine is bewust geïmplementeerd als één dynamische-array-formule.
 
-Belangrijke Excel-functies omvatten:
+Belangrijke Excel-functies zijn onder andere:
 
 | Functie | Doel |
 |----------|----------|
 | LET | Variabeledefinitie en verbeterde leesbaarheid |
 | FILTER | Activa matchen die bij de geselecteerde facturerende entiteit horen |
 | REDUCE | Door elke geïmporteerde factuur itereren |
-| LAMBDA | Herbruikbare rijniveau-toewijningslogica |
-| SWITCH | Toewijningsmethodologie dynamisch selecteren |
+| LAMBDA | Herbruikbare toewijningslogica op rijniveau |
+| SWITCH | Toewijningsmethodiek dynamisch selecteren |
 | MAKEARRAY | Toewijningsrijen automatisch genereren |
 | HSTACK | Uitvoerkolommen samenstellen |
 | VSTACK | Factuur-toewijningsblokken toevoegen |
 
-Toewijningsverhoudingen worden gegenereerd volgens de geconfigureerde methodologie:
+Toewijningsverhoudingen worden gegenereerd volgens de geconfigureerde methodiek:
 
-### Activa aantal
+### Asset Count
 
 ```text
 Allocation Ratio = 1 ÷ Number of Matching Assets
@@ -533,7 +476,7 @@ Allocation Ratio = 1 ÷ Number of Matching Assets
 
 ---
 
-### Capaciteit
+### Capacity
 
 ```text
 Allocation Ratio
@@ -549,7 +492,7 @@ Total Capacity
 
 ---
 
-### Eigendomscapaciteit
+### Ownership Capacity
 
 ```text
 Allocation Ratio
@@ -623,17 +566,17 @@ zonder pivottabellen.
 | Veld | Validatieregel | Foutgedrag |
 |--------|-----------------|----------------|
 | Invoice Number | Mag niet leeg zijn voor actieve records | Rij genegeerd |
-| Invoice Date | Moet een geldige Excel-datum zijn | Gebruikerscorrectie vereist |
-| Quantity | Moet numeriek en ≥ 0 zijn | Berekening voorkomen |
+| Invoice Date | Moet een geldige Excel-datum zijn | Correctie door gebruiker vereist |
+| Quantity | Moet numeriek zijn en ≥ 0 | Berekening voorkomen |
 | Unit Price | Moet numeriek zijn | Berekening voorkomen |
 | Allocation Target | Moet overeenkomen met een bestaande Company to Invoice | Waarschuwingsrecord gegenereerd |
 | VAT Override | Leeg of geldig percentage | Valt terug op standaard btw |
 | Company to Invoice | Moet bestaan in Asset Import | Toewijning geblokkeerd |
 | Ownership % | Tussen 0% en 100% | Ongeldige waarden uitgesloten |
 | Capacity | Moet positief zijn | Capaciteitstoewijning niet beschikbaar |
-| Ownership Capacity | Alleen formulegegenereerd | Beschermde kolom |
+| Ownership Capacity | Alleen formulegegenereerd | Beveiligde kolom |
 | Default VAT Rate | Tussen 0% en 100% | Configuratiewaarschuwing |
-| Allocation Basis | Asset Count / Capacity / Ownership Capacity | Standaard activa aantal |
+| Allocation Basis | Asset Count / Capacity / Ownership Capacity | Standaard is Asset Count |
 
 ### Automatische bewakingsvoorwaarden
 
@@ -641,7 +584,7 @@ zonder pivottabellen.
 - Lege activarijen worden genegeerd.
 - Onbekende facturerende entiteiten genereren een **⚠ Unmapped Target**-record.
 - Dynamische arrays breiden automatisch uit zonder gekopieerde formules.
-- Samenvattingsrapporten vernieuwen automatisch na herberekening.
+- Samenvattingsrapporten worden automatisch vernieuwd na herberekening.
 - Alle toegedeelde Net-, btw- en Bruto-totalen stemmen af op hun oorspronkelijke factuur.
 
 </details>
@@ -654,7 +597,7 @@ Deze werkmappen volgen dezelfde ontwerpfilosofie: lichtgewicht analytische raamw
 
 - **Demand-Adaptive Inventory Planning & Purchasing Decision Toolkit** — voorraadplanning, nabesteltiming en inkoopsimulatie.
 - **Restaurant Menu Master Workbook** — gecentraliseerde menuconfiguratie, modifierbeheer en prijsgovernance.
-- **Retail & Maquila Inventory Ledger** — voorraad volgen van bulkinkoop via contractmanufacturing tot verkoop van eind-SKU's.
+- **Retail & Maquila Inventory Ledger** — voorraad volgen van bulkinkoop via contractfabricage tot verkoop van eind-SKU's.
 - **Construction Estimate & Cost Tracking Toolkit** — hoeveelheidsopmetingen, kostenschatting en projectbudgetmonitoring.
 - Meer tools zijn beschikbaar via de GitHub-repository en onze [Website](https://www.theseusworkshop.com/).
 
@@ -664,6 +607,6 @@ Deze werkmappen volgen dezelfde ontwerpfilosofie: lichtgewicht analytische raamw
 
 Dit project is gelicentieerd onder de **Apache License 2.0**.
 
-Je bent vrij om deze werkmap te gebruiken, wijzigen en distribueren in overeenstemming met de voorwaarden van de Apache License 2.0.
+U mag deze werkmap gebruiken, wijzigen en distribueren in overeenstemming met de voorwaarden van de Apache License 2.0.
 
 Zie het bestand `LICENSE` voor de volledige licentietekst.
